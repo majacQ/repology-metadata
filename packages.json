@@ -64,11 +64,11 @@
   },
   {
     "name": "dopewars",
-    "version": "1.5.12",
+    "version": "1.6.1",
     "description": "Drug-dealing game set in streets of New York City",
     "homepage": "https://dopewars.sourceforge.io",
-    "depends": ["ncurses", "glib", "pcre"],
-    "srcurl": "https://prdownloads.sourceforge.net/dopewars/dopewars-1.5.12.tar.gz",
+    "depends": ["ncurses", "glib", "pcre", "curl"],
+    "srcurl": "https://prdownloads.sourceforge.net/dopewars/dopewars-1.6.1.tar.gz",
     "maintainer": "Termux members @termux"
   },
   {
@@ -244,11 +244,11 @@
   },
   {
     "name": "vitetris",
-    "version": "0.58.0",
+    "version": "0.59.1",
     "description": "Virtual terminal *tris clone",
     "homepage": "http://victornils.net/tetris/",
     "depends": ["ncurses"],
-    "srcurl": "https://github.com/vicgeralds/vitetris/archive/v0.58.0.tar.gz",
+    "srcurl": "https://github.com/vicgeralds/vitetris/archive/v0.59.1.tar.gz",
     "maintainer": "Termux members @termux"
   },
   {
@@ -8238,11 +8238,11 @@
   },
   {
     "name": "htop",
-    "version": "3.0.1",
+    "version": "3.0.5",
     "description": "Interactive process viewer for Linux",
     "homepage": "https://htop.dev/",
     "depends": ["libandroid-support", "ncurses"],
-    "srcurl": "https://github.com/htop-dev/htop/archive/3.0.1/htop-3.0.1.tar.gz",
+    "srcurl": "https://github.com/htop-dev/htop/archive/3.0.5/htop-3.0.5.tar.gz",
     "maintainer": "Termux members @termux"
   },
   {
@@ -8337,11 +8337,11 @@
   },
   {
     "name": "libpcsclite",
-    "version": "1.8.26",
+    "version": "1.9.0",
     "description": "Middleware to access a smart card using SCard API (PC/SC).",
     "homepage": "https://pcsclite.apdu.fr/",
     "depends": ["libusb", "python2"],
-    "srcurl": "https://pcsclite.apdu.fr/files/pcsc-lite-1.8.26.tar.bz2",
+    "srcurl": "https://pcsclite.apdu.fr/files/pcsc-lite-1.9.0.tar.bz2",
     "maintainer": "Termux members @termux"
   },
   {
@@ -8404,7 +8404,7 @@
     "description": "A C++ library to control Z-Wave Networks via a USB Z-Wave Controller",
     "homepage": "https://github.com/OpenZWave/open-zwave",
     "depends": ["libusb"],
-    "srcurl": "https://github.com/OpenZWave/open-zwave/archive/5db357e3169945f990c4b2be01b38e506745097a.tar.gz",
+    "srcurl": "https://github.com/OpenZWave/open-zwave/archive/590e999c2d091500845a64b5113374357ae543d1.tar.gz",
     "maintainer": "Termux members @termux"
   },
   {
@@ -8481,11 +8481,11 @@
   },
   {
     "name": "tshark",
-    "version": "3.4.2",
+    "version": "3.4.3",
     "description": "Network protocol analyzer and sniffer",
     "homepage": "https://www.wireshark.org/",
     "depends": ["glib", "libgpg-error", "libgcrypt", "libnl", "libpcap", "libgnutls", "openssl", "libiconv", "libcap", "c-ares"],
-    "srcurl": "https://www.wireshark.org/download/src/all-versions/wireshark-3.4.2.tar.xz",
+    "srcurl": "https://www.wireshark.org/download/src/all-versions/wireshark-3.4.3.tar.xz",
     "maintainer": "Termux members @termux"
   },
   {
