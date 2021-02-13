@@ -449,11 +449,11 @@
   },
   {
     "name": "asciidoc",
-    "version": "9.0.5",
+    "version": "9.1.0",
     "description": "Text document format for short documents, articles, books and UNIX man pages.",
     "homepage": "https://asciidoc.org",
     "depends": ["docbook-xsl", "libxml2-utils", "python", "xsltproc"],
-    "srcurl": "https://github.com/asciidoc/asciidoc-py3/archive/9.0.5.tar.gz",
+    "srcurl": "https://github.com/asciidoc/asciidoc-py3/archive/9.1.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1578,11 +1578,11 @@
   },
   {
     "name": "e2fsprogs",
-    "version": "1.46.0",
+    "version": "1.46.1",
     "description": "EXT 2/3/4 filesystem utilities",
     "homepage": "http://e2fsprogs.sourceforge.net",
     "depends": ["libuuid", "util-linux"],
-    "srcurl": "https://www.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/v1.46.0/e2fsprogs-1.46.0.tar.xz",
+    "srcurl": "https://www.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/v1.46.1/e2fsprogs-1.46.1.tar.xz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -2754,11 +2754,11 @@
   },
   {
     "name": "imagemagick",
-    "version": "7.0.10.61",
+    "version": "7.0.10.62",
     "description": "Suite to create, edit, compose, or convert images in a variety of formats",
     "homepage": "https://www.imagemagick.org/",
     "depends": ["fftw", "fontconfig", "freetype", "fribidi", "glib", "harfbuzz", "libandroid-support", "libbz2", "libcairo", "libffi", "libgraphite", "libjpeg-turbo", "liblzma", "libpixman", "libpng", "librsvg", "libtiff", "libuuid", "libwebp", "libx11", "libxau", "libxcb", "libxdmcp", "libxext", "libxml2", "littlecms", "openjpeg", "pango", "pcre", "zlib"],
-    "srcurl": "https://github.com/ImageMagick/ImageMagick/archive/7.0.10-61.tar.gz",
+    "srcurl": "https://github.com/ImageMagick/ImageMagick/archive/7.0.10-62.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5559,7 +5559,7 @@
     "version": "3.5",
     "description": "Free, fast, friendly file browser",
     "homepage": "https://github.com/jarun/nnn",
-    "depends": ["file", "findutils", "readline", "wget", "libandroid-support"],
+    "depends": ["debianutils", "file", "findutils", "readline", "wget", "libandroid-support"],
     "srcurl": "https://github.com/jarun/nnn/archive/v3.5.tar.gz",
     "maintainer": "@termux"
   },
@@ -7260,7 +7260,7 @@
   },
   {
     "name": "termux-tools",
-    "version": "0.108",
+    "version": "0.109",
     "description": "Basic system tools for Termux",
     "homepage": "https://termux.com/",
     "depends": ["bzip2", "coreutils", "curl", "dash", "diffutils", "findutils", "gawk", "grep", "gzip", "less", "procps", "psmisc", "sed", "tar", "termux-am", "termux-exec", "util-linux", "xz-utils", "dialog"],
