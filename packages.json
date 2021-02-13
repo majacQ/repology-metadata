@@ -8571,11 +8571,11 @@
   },
   {
     "name": "libgeos",
-    "version": "3.8.0",
+    "version": "3.9.1",
     "description": "Geometry Engine, C++ port of the Java Topology Suite",
     "homepage": "https://geos.osgeo.org/",
     "depends": ["libc++"],
-    "srcurl": "https://github.com/libgeos/geos/archive/3.8.0.tar.gz",
+    "srcurl": "https://github.com/libgeos/geos/archive/3.9.1.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91"
   },
   {
