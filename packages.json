@@ -870,11 +870,11 @@
   },
   {
     "name": "calc",
-    "version": "2.12.7.6",
+    "version": "2.12.8.0",
     "description": "Arbitrary precision console calculator",
     "homepage": "http://www.isthe.com/chongo/tech/comp/calc/",
     "depends": ["ncurses", "ncurses-ui-libs", "readline"],
-    "srcurl": "http://www.isthe.com/chongo/src/calc/calc-2.12.7.6.tar.bz2",
+    "srcurl": "https://github.com/lcn2/calc/archive/2.12.8.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3069,12 +3069,12 @@
   },
   {
     "name": "kibi",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "A tiny terminal text editor, written in Rust",
     "homepage": "https://github.com/ilai-deutel/kibi",
     "depends": [],
-    "srcurl": "https://github.com/ilai-deutel/kibi/archive/v0.2.1.tar.gz",
-    "maintainer": "@termux"
+    "srcurl": "https://github.com/ilai-deutel/kibi/archive/v0.2.2.tar.gz",
+    "maintainer": "Ilaï Deutel @ilai-deutel"
   },
   {
     "name": "knockd",
