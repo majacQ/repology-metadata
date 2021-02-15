@@ -8435,6 +8435,15 @@
     "maintainer": "Termux members @termux"
   },
   {
+    "name": "pixiewps",
+    "version": "1.4.2",
+    "description": "An offline Wi-Fi Protected Setup brute-force utility",
+    "homepage": "https://github.com/wiire-a/pixiewps",
+    "depends": [],
+    "srcurl": "https://github.com/wiire-a/pixiewps/archive/v1.4.2.tar.gz",
+    "maintainer": "Termux members @termux"
+  },
+  {
     "name": "runc",
     "version": "1.0.0-rc92",
     "description": "A tool for spawning and running containers according to the OCI specification",
