@@ -4423,6 +4423,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "libstrophe",
+    "version": "0.10.1",
+    "description": "libstrophe is a minimal XMPP library written in C.",
+    "homepage": "https://strophe.im/libstrophe",
+    "depends": ["openssl", "libexpat"],
+    "srcurl": "https://github.com/strophe/libstrophe/releases/download/0.10.1/libstrophe-0.10.1.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "libtalloc",
     "version": "2.3.2",
     "description": "Hierarchical, reference counted memory pool system with destructors",
@@ -7851,6 +7860,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "woff2",
+    "version": "1.0.2",
+    "description": "font compression reference code",
+    "homepage": "https://www.w3.org/TR/WOFF2/",
+    "depends": ["brotli"],
+    "srcurl": "https://github.com/google/woff2/archive/v1.0.2.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "wol",
     "version": "0.7.1",
     "description": "Program implementing Wake On LAN functionality",
@@ -8190,6 +8208,15 @@
     "depends": [],
     "srcurl": "http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.84.tar.xz",
     "maintainer": "Termux members @termux"
+  },
+  {
+    "name": "docker",
+    "version": "20.10.2",
+    "description": "Set of products that use OS-level virtualization to deliver software in packages called containers.",
+    "homepage": "https://docker.com",
+    "depends": ["containerd"],
+    "srcurl": "https://github.com/moby/moby/archive/v20.10.2.tar.gz",
+    "maintainer": "@termux"
   },
   {
     "name": "encfs",
