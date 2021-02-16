@@ -1667,6 +1667,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "enchant",
+    "version": "2.2.15",
+    "description": "Wraps a number of different spelling libraries and programs with a consistent interface.",
+    "homepage": "https://abiword.github.io/enchant/",
+    "depends": ["glib"],
+    "srcurl": "https://github.com/AbiWord/enchant/archive/v2.2.15.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "entr",
     "version": "4.7",
     "description": "Event Notify Test Runner - run arbitrary commands when files change",
@@ -3700,6 +3709,15 @@
     "homepage": "https://www.gnu.org/software/gsasl",
     "depends": ["libidn"],
     "srcurl": "https://download.savannah.nongnu.org/releases/gsasl/libgsasl-1.8.1.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "libhypen",
+    "version": "2.8.8",
+    "description": "hyphenation library to use converted TeX hyphenation patterns",
+    "homepage": "https://github.com/hunspell/hyphen",
+    "depends": [],
+    "srcurl": "https://downloads.sourceforge.net/hunspell/hyphen-2.8.8.tar.gz",
     "maintainer": "@termux"
   },
   {
