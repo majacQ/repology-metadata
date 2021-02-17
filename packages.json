@@ -8610,9 +8610,9 @@
     "version": "3.2.1",
     "description": "A translator library for raster and vector geospatial data formats",
     "homepage": "https://gdal.org",
-    "depends": ["libc++", "openjpeg", "libcurl", "libtiff", "libpng", "proj", "libiconv", "libsqlite", "libgeos"],
+    "depends": ["libc++", "openjpeg", "libcurl", "libtiff", "libpng", "proj", "libiconv", "libsqlite", "libgeos", "libspatialite"],
     "srcurl": "https://download.osgeo.org/gdal/3.2.1/gdal-3.2.1.tar.xz",
-    "maintainer": "Bjoern Schilberg @BjoernSchilberg"
+    "maintainer": "@termux"
   },
   {
     "name": "glpk",
@@ -8633,6 +8633,15 @@
     "maintainer": "Henrik Grimler @Grimler91"
   },
   {
+    "name": "libfreexl",
+    "version": "1.0.6",
+    "description": "Library to extract valid data from within an Excel (.xls) spreadsheet",
+    "homepage": "https://www.gaia-gis.it/fossil/freexl",
+    "depends": ["libiconv"],
+    "srcurl": "https://www.gaia-gis.it/gaia-sins/freexl-1.0.6.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "libgeos",
     "version": "3.9.1",
     "description": "Geometry Engine, C++ port of the Java Topology Suite",
@@ -8649,6 +8658,24 @@
     "depends": ["libc++", "libzopfli", "zlib"],
     "srcurl": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/hdf5-1.12.0.tar.bz2",
     "maintainer": "Termux members @termux"
+  },
+  {
+    "name": "librttopo",
+    "version": "1.1.0",
+    "description": "The RT Topology Library exposes an API to create and manage standard topologies",
+    "homepage": "https://git.osgeo.org/gitea/rttopo/librttopo",
+    "depends": ["libgeos", "proj"],
+    "srcurl": "https://git.osgeo.org/gitea/rttopo/librttopo/archive/librttopo-1.1.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "libspatialite",
+    "version": "5.0.1",
+    "description": "SQLite extension to support spatial data types and operations",
+    "homepage": "https://www.gaia-gis.it/fossil/libspatialite",
+    "depends": ["libgeos", "proj", "libfreexl", "libsqlite", "libxml2", "librttopo"],
+    "srcurl": "https://www.gaia-gis.it/gaia-sins/libspatialite-5.0.1.tar.gz",
+    "maintainer": "@termux"
   },
   {
     "name": "mapserver",
@@ -8721,6 +8748,15 @@
     "depends": ["libc++", "libsqlite", "sqlite", "libtiff", "libcurl"],
     "srcurl": "https://github.com/OSGeo/proj.4/archive/7.2.1.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91"
+  },
+  {
+    "name": "spatialite-tools",
+    "version": "5.0.0",
+    "description": "Collection of tools supporting SpatiaLite",
+    "homepage": "https://www.gaia-gis.it/fossil/spatialite-tools",
+    "depends": ["libgeos", "libexpat", "sqlite", "proj", "libspatialite"],
+    "srcurl": "https://www.gaia-gis.it/gaia-sins/spatialite-tools-5.0.0.tar.gz",
+    "maintainer": "@termux"
   },
   {
     "name": "texlive",
