@@ -2342,11 +2342,11 @@
   },
   {
     "name": "golang",
-    "version": "2:1.15.8",
+    "version": "2:1.16",
     "description": "Go programming language compiler",
     "homepage": "https://golang.org/",
     "depends": ["clang"],
-    "srcurl": "https://storage.googleapis.com/golang/go1.15.8.src.tar.gz",
+    "srcurl": "https://storage.googleapis.com/golang/go1.16.src.tar.gz",
     "maintainer": "@termux"
   },
   {
