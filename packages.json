@@ -3712,7 +3712,7 @@
     "maintainer": "@termux"
   },
   {
-    "name": "libhypen",
+    "name": "libhyphen",
     "version": "2.8.8",
     "description": "hyphenation library to use converted TeX hyphenation patterns",
     "homepage": "https://github.com/hunspell/hyphen",
