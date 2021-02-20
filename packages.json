@@ -2853,11 +2853,11 @@
   },
   {
     "name": "ipfs",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "A peer-to-peer hypermedia distribution protocol",
     "homepage": "https://ipfs.io/",
     "depends": [],
-    "srcurl": "https://github.com/ipfs/go-ipfs/releases/download/v0.7.0/go-ipfs-source.tar.gz",
+    "srcurl": "https://github.com/ipfs/go-ipfs/releases/download/v0.8.0/go-ipfs-source.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
