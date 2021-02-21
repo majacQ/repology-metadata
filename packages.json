@@ -5395,6 +5395,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "nasm",
+    "version": "2.15.05",
+    "description": "A cross-platform x86 assembler with an Intel-like syntax.",
+    "homepage": "https://nasm.us",
+    "depends": [],
+    "srcurl": "https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/nasm-2.15.05.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "natpmpc",
     "version": "20150609",
     "description": "Portable and fully compliant implementation of NAT-PMP",
