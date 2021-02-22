@@ -306,11 +306,11 @@
   },
   {
     "name": "acr",
-    "version": "1.9.4",
+    "version": "1.9.8",
     "description": "A fully compatible autoconf replacement",
     "homepage": "https://github.com/radare/acr",
     "depends": ["dash"],
-    "srcurl": "https://github.com/radare/acr/archive/1.9.4.tar.gz",
+    "srcurl": "https://github.com/radare/acr/archive/1.9.8.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -538,11 +538,11 @@
   },
   {
     "name": "atomicparsley",
-    "version": "1:20210114.184825.1dbe1be",
+    "version": "1:20210124.204813.840499f",
     "description": "Read, parse and set metadata of MPEG-4 and 3gp files",
     "homepage": "https://github.com/wez/atomicparsley",
     "depends": ["libc++", "zlib"],
-    "srcurl": "https://github.com/wez/atomicparsley/archive/20210114.184825.1dbe1be.tar.gz",
+    "srcurl": "https://github.com/wez/atomicparsley/archive/20210124.204813.840499f.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -870,11 +870,11 @@
   },
   {
     "name": "calc",
-    "version": "2.12.8.0",
+    "version": "2.12.8.2",
     "description": "Arbitrary precision console calculator",
     "homepage": "http://www.isthe.com/chongo/tech/comp/calc/",
     "depends": ["ncurses", "ncurses-ui-libs", "readline"],
-    "srcurl": "https://github.com/lcn2/calc/archive/2.12.8.0.tar.gz",
+    "srcurl": "https://github.com/lcn2/calc/archive/2.12.8.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1005,20 +1005,20 @@
   },
   {
     "name": "clash",
-    "version": "1.3.5",
+    "version": "1.4.1",
     "description": "A rule-based tunnel in Go.",
     "homepage": "https://github.com/Dreamacro/clash",
     "depends": [],
-    "srcurl": "https://github.com/Dreamacro/clash/archive/v1.3.5.tar.gz",
+    "srcurl": "https://github.com/Dreamacro/clash/archive/v1.4.1.tar.gz",
     "maintainer": "Philipp Schmitt <philipp@schmitt.co>"
   },
   {
     "name": "cmake",
-    "version": "3.19.4",
+    "version": "3.19.5",
     "description": "Family of tools designed to build, test and package software",
     "homepage": "https://cmake.org/",
     "depends": ["libarchive", "libc++", "libcurl", "libexpat", "jsoncpp", "libuv", "rhash", "make", "clang", "zlib"],
-    "srcurl": "https://www.cmake.org/files/v3.19/cmake-3.19.4.tar.gz",
+    "srcurl": "https://www.cmake.org/files/v3.19/cmake-3.19.5.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1194,11 +1194,11 @@
   },
   {
     "name": "ctags",
-    "version": "2:5.9.20201115.0",
+    "version": "2:5.9.20210221.0",
     "description": "Universal ctags: Source code index builder",
     "homepage": "https://ctags.io/",
     "depends": ["libiconv", "libjansson", "liblzma", "libxml2", "libyaml"],
-    "srcurl": "https://github.com/universal-ctags/ctags/archive/p5.9.20201115.0.tar.gz",
+    "srcurl": "https://github.com/universal-ctags/ctags/archive/p5.9.20210221.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1248,7 +1248,7 @@
   },
   {
     "name": "dart",
-    "version": "2.10.4",
+    "version": "2.10.5",
     "description": "Dart is a general-purpose programming language",
     "homepage": "https://www.dartlang.org/",
     "depends": ["gzip", "tar"],
@@ -1436,11 +1436,11 @@
   },
   {
     "name": "dnsutils",
-    "version": "9.16.11",
+    "version": "9.16.12",
     "description": "Clients provided with BIND",
     "homepage": "https://www.isc.org/downloads/bind/",
     "depends": ["openssl", "readline", "resolv-conf", "zlib", "libuv"],
-    "srcurl": "ftp://ftp.isc.org/isc/bind9/9.16.11/bind-9.16.11.tar.xz",
+    "srcurl": "ftp://ftp.isc.org/isc/bind9/9.16.12/bind-9.16.12.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -3839,11 +3839,11 @@
   },
   {
     "name": "libllvm",
-    "version": "11.0.0",
+    "version": "11.1.0",
     "description": "Modular compiler and toolchain technologies library",
     "homepage": "https://clang.llvm.org/",
     "depends": ["binutils", "libc++", "ncurses", "ndk-sysroot", "libffi", "zlib"],
-    "srcurl": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/llvm-project-11.0.0.tar.xz",
+    "srcurl": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-project-11.1.0.src.tar.xz",
     "maintainer": "@buttaface"
   },
   {
@@ -5529,11 +5529,11 @@
   },
   {
     "name": "netpbm",
-    "version": "1:10.73.33",
+    "version": "1:10.73.34",
     "description": "Toolkit for manipulation of graphic images of different formats",
     "homepage": "http://netpbm.sourceforge.net/",
     "depends": ["libpng", "libxml2", "libjpeg-turbo", "libtiff", "zlib"],
-    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.33/netpbm-10.73.33.tgz",
+    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.34/netpbm-10.73.34.tgz",
     "maintainer": "@termux"
   },
   {
@@ -6294,11 +6294,11 @@
   },
   {
     "name": "python",
-    "version": "3.9.1",
+    "version": "3.9.2",
     "description": "Python 3 programming language intended to enable clear programs",
     "homepage": "https://python.org/",
     "depends": ["gdbm", "libandroid-support", "libbz2", "libcrypt", "libffi", "liblzma", "libsqlite", "ncurses", "ncurses-ui-libs", "openssl", "readline", "zlib"],
-    "srcurl": "https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tar.xz",
+    "srcurl": "https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -10203,6 +10203,15 @@
     "depends": ["gdk-pixbuf", "glib", "gtk3", "libcairo", "libice", "libiconv", "liblua53", "libsm", "libx11", "libxpm", "libxt", "ncurses", "pango", "python"],
     "srcurl": "https://github.com/vim/vim/archive/v8.2.2450.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "webkit",
+    "version": "2.31.1",
+    "description": "WebKit is the web browser engine",
+    "homepage": "https://webkit.org/",
+    "depends": ["libtasn1", "libxt", "libnotify", "libcairo", "libgcrypt", "gtk3", "libsoup", "libwebp", "libxslt", "woff2", "enchant", "libhyphen", "openjpeg", "gst-plugins-base", "gstreamer"],
+    "srcurl": "https://webkitgtk.org/releases/webkitgtk-2.31.1.tar.xz",
+    "maintainer": "@termux"
   },
   {
     "name": "wireshark-gtk",
