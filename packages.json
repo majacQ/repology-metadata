@@ -3168,11 +3168,11 @@
   },
   {
     "name": "ldc",
-    "version": "1.24.0",
+    "version": "1.25.0",
     "description": "D programming language compiler, built with LLVM",
     "homepage": "https://github.com/ldc-developers/ldc",
     "depends": ["clang", "libc++", "zlib"],
-    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.24.0/ldc-1.24.0-src.tar.gz",
+    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.25.0/ldc-1.25.0-src.tar.gz",
     "maintainer": "@termux"
   },
   {
