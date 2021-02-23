@@ -8619,7 +8619,7 @@
     "version": "3.2.1",
     "description": "A translator library for raster and vector geospatial data formats",
     "homepage": "https://gdal.org",
-    "depends": ["libc++", "openjpeg", "libcurl", "libtiff", "libpng", "proj", "libiconv", "libsqlite", "libgeos", "libspatialite"],
+    "depends": ["libc++", "openjpeg", "libcurl", "libtiff", "libpng", "proj", "libiconv", "libsqlite", "libgeos", "libspatialite", "libexpat"],
     "srcurl": "https://download.osgeo.org/gdal/3.2.1/gdal-3.2.1.tar.xz",
     "maintainer": "@termux"
   },
