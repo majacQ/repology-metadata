@@ -2135,11 +2135,11 @@
   },
   {
     "name": "gh",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/v1.6.1.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/v1.6.2.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
@@ -8184,11 +8184,11 @@
   },
   {
     "name": "aircrack-ng",
-    "version": "1.6-git",
+    "version": "1:1.6",
     "description": "WiFi security auditing tools suite",
     "homepage": "https://www.aircrack-ng.org/",
     "depends": ["libc++", "libnl", "openssl", "libpcap", "pciutils", "ethtool"],
-    "srcurl": "https://github.com/aircrack-ng/aircrack-ng/archive/e998873f148898179d3e1679bc09a087ae42fb74.tar.gz",
+    "srcurl": "https://github.com/aircrack-ng/aircrack-ng/archive/1.6.tar.gz",
     "maintainer": "Termux members @termux"
   },
   {
