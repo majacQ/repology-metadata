@@ -9056,11 +9056,11 @@
   },
   {
     "name": "rustc-nightly",
-    "version": "1.50.0",
+    "version": "1.52.0",
     "description": "Rust compiler and utilities (nightly version)",
     "homepage": "https://www.rust-lang.org",
     "depends": ["libc++", "clang", "openssl", "lld", "zlib", "libllvm"],
-    "srcurl": "https://static.rust-lang.org/dist/2020-12-23/rustc-nightly-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/2021-02-24/rustc-nightly-src.tar.xz",
     "maintainer": "@its-pointless"
   },
   {
