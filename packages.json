@@ -1023,11 +1023,11 @@
   },
   {
     "name": "cmake",
-    "version": "3.19.4",
+    "version": "3.19.6",
     "description": "Family of tools designed to build, test and package software",
     "homepage": "https://cmake.org/",
     "depends": ["libarchive", "libc++", "libcurl", "libexpat", "jsoncpp", "libuv", "rhash", "make", "clang", "zlib"],
-    "srcurl": "https://www.cmake.org/files/v3.19/cmake-3.19.4.tar.gz",
+    "srcurl": "https://www.cmake.org/files/v3.19/cmake-3.19.6.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7038,11 +7038,11 @@
   },
   {
     "name": "strace",
-    "version": "5.10",
+    "version": "5.11",
     "description": "Debugging utility to monitor system calls and signals received",
     "homepage": "https://strace.io/",
     "depends": ["libdw"],
-    "srcurl": "https://github.com/strace/strace/releases/download/v5.10/strace-5.10.tar.xz",
+    "srcurl": "https://github.com/strace/strace/releases/download/v5.11/strace-5.11.tar.xz",
     "maintainer": "@termux"
   },
   {
