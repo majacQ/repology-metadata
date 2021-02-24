@@ -1,5 +1,14 @@
 [
   {
+    "name": "0verkill",
+    "version": "0.16-git",
+    "description": "Bloody 2D action deathmatch-like game in ASCII-ART",
+    "homepage": "https://github.com/hackndev/0verkill",
+    "depends": [],
+    "srcurl": "https://github.com/hackndev/0verkill/archive/522f11a3e40670bbf85e0fada285141448167968.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "angband",
     "version": "4.2.1",
     "description": "Dungeon exploration adventure game",
@@ -8400,11 +8409,11 @@
   },
   {
     "name": "libpcsclite",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "Middleware to access a smart card using SCard API (PC/SC).",
     "homepage": "https://pcsclite.apdu.fr/",
     "depends": ["libusb", "python2"],
-    "srcurl": "https://pcsclite.apdu.fr/files/pcsc-lite-1.9.0.tar.bz2",
+    "srcurl": "https://pcsclite.apdu.fr/files/pcsc-lite-1.9.1.tar.bz2",
     "maintainer": "Termux members @termux"
   },
   {
