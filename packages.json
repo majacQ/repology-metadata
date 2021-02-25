@@ -5270,11 +5270,11 @@
   },
   {
     "name": "mpd",
-    "version": "0.22.4",
+    "version": "0.22.6",
     "description": "Music player daemon",
     "homepage": "https://www.musicpd.org",
     "depends": ["libc++", "libcurl", "libexpat", "libid3tag", "libopus", "pulseaudio", "libmpdclient", "openal-soft", "libvorbis", "libsqlite", "ffmpeg", "libmp3lame", "libbz2", "libogg", "libnfs", "zlib"],
-    "srcurl": "https://github.com/MusicPlayerDaemon/MPD/archive/v0.22.4.tar.gz",
+    "srcurl": "https://github.com/MusicPlayerDaemon/MPD/archive/v0.22.6.tar.gz",
     "maintainer": "@termux"
   },
   {
