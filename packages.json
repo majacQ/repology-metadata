@@ -413,11 +413,11 @@
   },
   {
     "name": "apt",
-    "version": "2.1.18",
+    "version": "2.2.0",
     "description": "Front-end for the dpkg package manager",
     "homepage": "https://packages.debian.org/apt",
     "depends": ["coreutils", "dpkg", "findutils", "gpgv", "grep", "libandroid-glob", "libbz2", "libc++", "libcurl", "libgnutls", "liblz4", "liblzma", "sed", "termux-licenses", "xxhash", "zlib"],
-    "srcurl": "http://deb.debian.org/debian/pool/main/a/apt/apt_2.1.18.tar.xz",
+    "srcurl": "http://deb.debian.org/debian/pool/main/a/apt/apt_2.2.0.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -4906,6 +4906,15 @@
     "homepage": "https://github.com/dimkr/loksh",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/dimkr/loksh/archive/6.6.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "lr",
+    "version": "1.5.1",
+    "description": "list files, recursively, includes the best features of ls, find, stat and du",
+    "homepage": "https://git.vuxu.org/lr/about/",
+    "depends": [],
+    "srcurl": "https://git.vuxu.org/lr/snapshot/lr-1.5.1.tar.xz",
     "maintainer": "@termux"
   },
   {
