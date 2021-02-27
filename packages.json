@@ -7289,11 +7289,11 @@
   },
   {
     "name": "termux-exec",
-    "version": "1:0.8",
+    "version": "1:0.9",
     "description": "An execve() wrapper to make /bin and /usr/bin shebangs work",
     "homepage": "https://github.com/termux/termux-exec",
     "depends": [],
-    "srcurl": "https://github.com/termux/termux-exec/archive/v0.8.tar.gz",
+    "srcurl": "https://github.com/termux/termux-exec/archive/v0.9.tar.gz",
     "maintainer": "@termux"
   },
   {
