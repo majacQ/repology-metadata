@@ -81,6 +81,15 @@
     "maintainer": "Termux members @termux"
   },
   {
+    "name": "foo",
+    "version": "28",
+    "description": "dummy package for testing subpackage handling by github action scripts",
+    "homepage": "https://foo",
+    "depends": [],
+    "srcurl": "https://github.com/termux/libandroid-support/archive/v28.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "frotz",
     "version": "2.52",
     "description": "Interpreter for Infocom and other Z-machine interactive fiction (IF) games",
@@ -7986,11 +7995,11 @@
   },
   {
     "name": "xmake",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "A cross-platform build utility based on Lua",
     "homepage": "https://xmake.io/",
     "depends": [],
-    "srcurl": "https://github.com/xmake-io/xmake/releases/download/v2.5.1/xmake-v2.5.1.tar.gz",
+    "srcurl": "https://github.com/xmake-io/xmake/releases/download/v2.5.2/xmake-v2.5.2.tar.gz",
     "maintainer": "Ruki Wang @waruqi"
   },
   {
