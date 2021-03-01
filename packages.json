@@ -10223,7 +10223,7 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
-    "name": "webkitgtk",
+    "name": "webkit2gtk",
     "version": "2.31.1",
     "description": "A full-featured port of the WebKit rendering engine",
     "homepage": "https://webkitgtk.org",
