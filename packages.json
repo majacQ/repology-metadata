@@ -81,15 +81,6 @@
     "maintainer": "Termux members @termux"
   },
   {
-    "name": "foo",
-    "version": "28",
-    "description": "dummy package for testing subpackage handling by github action scripts",
-    "homepage": "https://foo",
-    "depends": [],
-    "srcurl": "https://github.com/termux/libandroid-support/archive/v28.tar.gz",
-    "maintainer": "@termux"
-  },
-  {
     "name": "frotz",
     "version": "2.52",
     "description": "Interpreter for Infocom and other Z-machine interactive fiction (IF) games",
@@ -3186,11 +3177,11 @@
   },
   {
     "name": "ldc",
-    "version": "1.25.0",
+    "version": "1.25.1",
     "description": "D programming language compiler, built with LLVM",
     "homepage": "https://github.com/ldc-developers/ldc",
     "depends": ["clang", "libc++", "zlib"],
-    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.25.0/ldc-1.25.0-src.tar.gz",
+    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.25.1/ldc-1.25.1-src.tar.gz",
     "maintainer": "@termux"
   },
   {
