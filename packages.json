@@ -8112,11 +8112,11 @@
   },
   {
     "name": "z3",
-    "version": "4.8.10",
+    "version": "4.8.9",
     "description": "Z3 is a theorem prover from Microsoft Research.",
     "homepage": "https://github.com/Z3Prover/z3",
     "depends": [],
-    "srcurl": "https://github.com/Z3Prover/z3/archive/z3-4.8.10.tar.gz",
+    "srcurl": "https://github.com/Z3Prover/z3/archive/z3-4.8.9.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -9056,11 +9056,11 @@
   },
   {
     "name": "restic-server",
-    "version": "0.9.8",
+    "version": "0.10.0",
     "description": "Restic's REST backend API server",
     "homepage": "https://restic.net/",
     "depends": [],
-    "srcurl": "https://github.com/restic/rest-server/archive/v0.9.8.tar.gz",
+    "srcurl": "https://github.com/restic/rest-server/archive/v0.10.0.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
