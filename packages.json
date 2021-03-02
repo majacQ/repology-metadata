@@ -15,7 +15,7 @@
     "homepage": "http://rephial.org/",
     "depends": ["ncurses"],
     "srcurl": "http://rephial.org/downloads/4.2/angband-4.2.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "bastet",
@@ -33,7 +33,7 @@
     "homepage": "https://sites.google.com/site/broguegame/",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/termux/distfiles/releases/download/2021.01.04/brogue-1.7.5-linux-amd64.tbz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "cavez-of-phear",
@@ -51,7 +51,7 @@
     "homepage": "https://benkibbey.wordpress.com/cboard/",
     "depends": ["libandroid-support", "libandroid-glob", "gnuchess", "ncurses", "ncurses-ui-libs"],
     "srcurl": "http://downloads.sourceforge.net/project/c-board/0.7.5/cboard-0.7.5.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "curseofwar",
@@ -60,7 +60,7 @@
     "homepage": "http://a-nikolaev.github.io/curseofwar/",
     "depends": ["libc++", "ncurses"],
     "srcurl": "https://github.com/a-nikolaev/curseofwar/archive/v1.3.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "dmagnetic",
@@ -69,7 +69,7 @@
     "homepage": "https://www.dettus.net/dMagnetic",
     "depends": [],
     "srcurl": "https://www.dettus.net/dMagnetic/dMagnetic_0.30.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "dopewars",
@@ -78,7 +78,7 @@
     "homepage": "https://dopewars.sourceforge.io",
     "depends": ["ncurses", "glib", "pcre", "curl"],
     "srcurl": "https://prdownloads.sourceforge.net/dopewars/dopewars-1.6.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "frotz",
@@ -87,7 +87,7 @@
     "homepage": "https://gitlab.com/DavidGriffith/frotz",
     "depends": ["ncurses", "dialog", "curl"],
     "srcurl": "https://gitlab.com/DavidGriffith/frotz/-/archive/2.52/frotz-2.52.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "glulxe",
@@ -96,7 +96,7 @@
     "homepage": "https://www.eblong.com/zarf/glulx/",
     "depends": ["ncurses"],
     "srcurl": "https://www.eblong.com/zarf/glulx/glulxe-054.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gnuchess",
@@ -105,7 +105,7 @@
     "homepage": "https://www.gnu.org/software/chess/",
     "depends": ["libc++", "ncurses", "readline"],
     "srcurl": "https://mirrors.kernel.org/gnu/chess/gnuchess-6.2.7.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gnugo",
@@ -114,7 +114,7 @@
     "homepage": "https://www.gnu.org/software/gnugo/",
     "depends": ["ncurses", "readline"],
     "srcurl": "https://mirrors.kernel.org/gnu/gnugo/gnugo-3.8.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gnushogi",
@@ -123,7 +123,7 @@
     "homepage": "https://www.gnu.org/software/gnushogi/",
     "depends": ["ncurses"],
     "srcurl": "https://mirrors.kernel.org/gnu/gnushogi/gnushogi-1.4.2.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gnuski",
@@ -141,7 +141,7 @@
     "homepage": "http://www.catb.org/~esr/greed/",
     "depends": ["ncurses"],
     "srcurl": "http://www.catb.org/~esr/greed/greed-4.2.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "lexter",
@@ -159,7 +159,7 @@
     "homepage": "https://github.com/seehuhn/moon-buggy",
     "depends": ["ncurses"],
     "srcurl": "ftp://ftp.netbsd.org/pub/pkgsrc/distfiles/moon-buggy-1.0.51.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "moria",
@@ -168,7 +168,7 @@
     "homepage": "https://umoria.org",
     "depends": ["libc++", "ncurses"],
     "srcurl": "https://github.com/dungeons-of-moria/umoria/archive/v5.7.13.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "myman",
@@ -195,7 +195,7 @@
     "homepage": "http://ninvaders.sourceforge.net",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/sf-refugees/ninvaders/archive/v0.1.2.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "nsnake",
@@ -204,7 +204,7 @@
     "homepage": "https://github.com/alexdantas/nSnake",
     "depends": ["libc++", "ncurses"],
     "srcurl": "https://github.com/alexdantas/nSnake/archive/v3.0.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "nudoku",
@@ -213,7 +213,7 @@
     "homepage": "http://jubalh.github.io/nudoku/",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/jubalh/nudoku/archive/2.0.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "open-adventure",
@@ -231,7 +231,7 @@
     "homepage": "https://sites.google.com/site/doctormike/pacman.html",
     "depends": ["ncurses"],
     "srcurl": "https://sites.google.com/site/doctormike/pacman-1.3.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "snake",
@@ -249,7 +249,7 @@
     "homepage": "https://github.com/mpereira/tty-solitaire",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/mpereira/tty-solitaire/archive/v1.3.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "vitetris",
@@ -258,7 +258,7 @@
     "homepage": "http://victornils.net/tetris/",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/vicgeralds/vitetris/archive/v0.59.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "8086tiny",
@@ -8612,7 +8612,7 @@
     "homepage": "https://www.cgal.org/",
     "depends": ["boost", "libc++", "libgmp", "libmpfr", "zlib"],
     "srcurl": "https://github.com/CGAL/cgal/releases/download/v5.2/CGAL-5.2.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "eigen",
@@ -8621,7 +8621,7 @@
     "homepage": "http://eigen.tuxfamily.org",
     "depends": [],
     "srcurl": "https://gitlab.com/libeigen/eigen/-/archive/3.3.9/eigen-3.3.9.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gap",
@@ -8630,7 +8630,7 @@
     "homepage": "https://www.gap-system.org/",
     "depends": ["readline", "libgmp", "zlib"],
     "srcurl": "https://www.gap-system.org/pub/gap/gap-4.11/tar.gz/gap-4.11.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gdal",
@@ -8648,7 +8648,7 @@
     "homepage": "https://www.gnu.org/software/glpk/",
     "depends": ["libgmp"],
     "srcurl": "https://ftp.gnu.org/gnu/glpk/glpk-4.65.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "gnucap",
@@ -8684,7 +8684,7 @@
     "homepage": "https://portal.hdfgroup.org/display/support",
     "depends": ["libc++", "libzopfli", "zlib"],
     "srcurl": "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.12/hdf5-1.12.0/src/hdf5-1.12.0.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "librttopo",
@@ -8729,7 +8729,7 @@
     "homepage": "http://openbabel.org/wiki/Main_Page",
     "depends": ["libc++", "libcairo", "libxml2", "eigen", "boost"],
     "srcurl": "https://github.com/openbabel/openbabel/archive/openbabel-3-1-1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "openfoam",
@@ -8756,7 +8756,7 @@
     "homepage": "http://openscad.org/",
     "depends": ["boost", "cgal", "double-conversion", "fontconfig", "harfbuzz", "libzip"],
     "srcurl": "https://files.openscad.org/openscad-2019.05.src.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "osmctools",
@@ -8765,7 +8765,7 @@
     "homepage": "https://gitlab.com/osm-c-tools/osmctools",
     "depends": ["zlib"],
     "srcurl": "https://gitlab.com/osm-c-tools/osmctools/-/archive/0.9/osmctools-0.9.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "proj",
