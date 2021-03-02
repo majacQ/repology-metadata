@@ -8207,7 +8207,7 @@
     "homepage": "https://www.aircrack-ng.org/",
     "depends": ["libc++", "libnl", "openssl", "libpcap", "pciutils", "ethtool"],
     "srcurl": "https://github.com/aircrack-ng/aircrack-ng/archive/1.6.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "arp-scan",
@@ -8216,7 +8216,7 @@
     "homepage": "https://github.com/royhills/arp-scan",
     "depends": ["libpcap"],
     "srcurl": "https://github.com/royhills/arp-scan/archive/1.9.7.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "bettercap",
@@ -8225,7 +8225,7 @@
     "homepage": "https://www.bettercap.org",
     "depends": ["libpcap", "libusb"],
     "srcurl": "https://github.com/bettercap/bettercap/archive/v2.29.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "containerd",
@@ -8243,7 +8243,7 @@
     "homepage": "https://gitlab.com/cryptsetup/cryptsetup/",
     "depends": ["json-c", "libdevmapper", "libgcrypt", "libpopt", "libuuid", "util-linux", "openssl", "libiconv"],
     "srcurl": "https://mirrors.edge.kernel.org/pub/linux/utils/cryptsetup/v2.3/cryptsetup-2.3.4.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "dnsmasq",
@@ -8252,7 +8252,7 @@
     "homepage": "http://www.thekelleys.org.uk/dnsmasq/doc.html",
     "depends": [],
     "srcurl": "http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.84.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "docker",
@@ -8279,7 +8279,7 @@
     "homepage": "https://mirrors.edge.kernel.org/pub/software/network/ethtool/",
     "depends": ["libmnl"],
     "srcurl": "https://mirrors.edge.kernel.org/pub/software/network/ethtool/ethtool-5.10.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "ettercap",
@@ -8288,7 +8288,7 @@
     "homepage": "https://www.ettercap-project.org",
     "depends": ["libpcap", "openssl", "zlib", "curl", "pcre", "ncurses", "libiconv", "libnet", "libltdl", "ethtool"],
     "srcurl": "https://github.com/Ettercap/ettercap/archive/v0.8.3.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "frida-server",
@@ -8306,7 +8306,7 @@
     "homepage": "https://www.rodsbooks.com/gdisk/",
     "depends": ["libpopt", "libuuid", "ncurses"],
     "srcurl": "https://sourceforge.net/projects/gptfdisk/files/gptfdisk/1.0.5/gptfdisk-1.0.5.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "hping3",
@@ -8315,7 +8315,7 @@
     "homepage": "http://www.hping.org/",
     "depends": ["libandroid-shmem", "libpcap", "tcl"],
     "srcurl": "http://www.hping.org/hping3-20051105.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "htop",
@@ -8324,7 +8324,7 @@
     "homepage": "https://htop.dev/",
     "depends": ["libandroid-support", "ncurses"],
     "srcurl": "https://github.com/htop-dev/htop/archive/3.0.5/htop-3.0.5.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "hw-probe",
@@ -8333,7 +8333,7 @@
     "homepage": "https://github.com/linuxhw/hw-probe",
     "depends": ["curl", "hwinfo", "net-tools", "perl"],
     "srcurl": "https://github.com/linuxhw/hw-probe/archive/1.5.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "hwinfo",
@@ -8342,7 +8342,7 @@
     "homepage": "https://github.com/openSUSE/hwinfo",
     "depends": ["libandroid-shmem", "libuuid", "libx86emu"],
     "srcurl": "https://github.com/openSUSE/hwinfo/archive/21.72.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "iodine",
@@ -8351,7 +8351,7 @@
     "homepage": "http://code.kryo.se/iodine",
     "depends": ["net-tools", "zlib"],
     "srcurl": "http://code.kryo.se/iodine/iodine-0.7.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "ipset",
@@ -8369,7 +8369,7 @@
     "homepage": "https://wireless.wiki.kernel.org/en/users/documentation/iw",
     "depends": ["libnl"],
     "srcurl": "https://mirrors.edge.kernel.org/pub/software/network/iw/iw-5.9.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "libaio",
@@ -8378,7 +8378,7 @@
     "homepage": "http://lse.sourceforge.net/io/aio.html",
     "depends": [],
     "srcurl": "http://ftp.de.debian.org/debian/pool/main/liba/libaio/libaio_0.3.112.orig.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "libccid",
@@ -8387,7 +8387,7 @@
     "homepage": "https://ccid.apdu.fr/",
     "depends": ["libpcsclite", "libusb", "flex"],
     "srcurl": "https://ccid.apdu.fr/files/ccid-1.4.31.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "libdevmapper",
@@ -8396,7 +8396,7 @@
     "homepage": "https://sourceware.org/lvm2/",
     "depends": ["libandroid-support", "libaio", "readline"],
     "srcurl": "https://mirrors.kernel.org/sourceware/lvm2/releases/LVM2.2.03.09.tgz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "libfuse2",
@@ -8423,7 +8423,7 @@
     "homepage": "https://pcsclite.apdu.fr/",
     "depends": ["libusb", "python2"],
     "srcurl": "https://pcsclite.apdu.fr/files/pcsc-lite-1.9.1.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "libseccomp",
@@ -8441,7 +8441,7 @@
     "homepage": "https://github.com/wfeldt/libx86emu",
     "depends": [],
     "srcurl": "https://github.com/wfeldt/libx86emu/archive/3.1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "lxc",
@@ -8459,7 +8459,7 @@
     "homepage": "https://github.com/alobbs/macchanger",
     "depends": [],
     "srcurl": "https://github.com/alobbs/macchanger/archive/1.7.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "mtr",
@@ -8468,7 +8468,7 @@
     "homepage": "https://github.com/traviscross/mtr",
     "depends": ["ncurses"],
     "srcurl": "https://github.com/traviscross/mtr/archive/v0.94.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "nethogs",
@@ -8477,7 +8477,7 @@
     "homepage": "https://github.com/raboof/nethogs",
     "depends": ["libc++", "ncurses", "libpcap"],
     "srcurl": "https://github.com/raboof/nethogs/archive/v0.8.6.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "open-zwave",
@@ -8486,7 +8486,7 @@
     "homepage": "https://github.com/OpenZWave/open-zwave",
     "depends": ["libusb"],
     "srcurl": "https://github.com/OpenZWave/open-zwave/archive/590e999c2d091500845a64b5113374357ae543d1.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "openvpn",
@@ -8495,7 +8495,7 @@
     "homepage": "https://openvpn.net",
     "depends": ["liblz4", "liblzo", "net-tools", "openssl"],
     "srcurl": "https://swupdate.openvpn.net/community/releases/openvpn-2.4.9.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "pciutils",
@@ -8504,7 +8504,7 @@
     "homepage": "https://mj.ucw.cz/sw/pciutils/",
     "depends": ["zlib"],
     "srcurl": "https://mj.ucw.cz/download/linux/pci/pciutils-3.7.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "pixiewps",
@@ -8513,7 +8513,7 @@
     "homepage": "https://github.com/wiire-a/pixiewps",
     "depends": [],
     "srcurl": "https://github.com/wiire-a/pixiewps/archive/v1.4.2.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "runc",
@@ -8531,7 +8531,7 @@
     "homepage": "https://github.com/vasi/squashfuse",
     "depends": ["libfuse2", "zstd", "liblz4", "liblzo"],
     "srcurl": "https://github.com/vasi/squashfuse/archive/0.1.103.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "tcpdump",
@@ -8540,7 +8540,7 @@
     "homepage": "https://www.tcpdump.org/",
     "depends": ["openssl", "libpcap"],
     "srcurl": "https://www.tcpdump.org/release/tcpdump-4.9.3.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "termshark",
@@ -8549,16 +8549,16 @@
     "homepage": "https://termshark.io",
     "depends": ["tshark"],
     "srcurl": "https://github.com/gcla/termshark/archive/v2.2.0.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "testdisk",
     "version": "7.1",
     "description": "Partition Recovery and File Undelete",
     "homepage": "https://www.cgsecurity.org/wiki/TestDisk",
-    "depends": ["libuuid", "zlib", "libjpeg-turbo", "libiconv", "ncurses"],
+    "depends": ["libuuid", "zlib", "libjpeg-turbo", "libiconv", "ncurses", "libandroid-glob"],
     "srcurl": "https://www.cgsecurity.org/testdisk-7.1.tar.bz2",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "tinc",
@@ -8567,7 +8567,7 @@
     "homepage": "https://www.tinc-vpn.org/",
     "depends": ["liblzo", "openssl", "zlib"],
     "srcurl": "https://www.tinc-vpn.org/packages/tinc-1.0.36.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "tshark",
@@ -8576,7 +8576,7 @@
     "homepage": "https://www.wireshark.org/",
     "depends": ["glib", "libgpg-error", "libgcrypt", "libnl", "libpcap", "libgnutls", "openssl", "libiconv", "libcap", "c-ares"],
     "srcurl": "https://www.wireshark.org/download/src/all-versions/wireshark-3.4.3.tar.xz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "wavemon",
@@ -8594,7 +8594,7 @@
     "homepage": "https://hewlettpackard.github.io/wireless-tools/Tools",
     "depends": [],
     "srcurl": "https://hewlettpackard.github.io/wireless-tools/wireless_tools.30.pre9.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "wpa-supplicant",
@@ -8603,7 +8603,7 @@
     "homepage": "http://hostap.epitest.fi/wpa_supplicant",
     "depends": ["openssl", "readline", "libnl"],
     "srcurl": "https://w1.fi/releases/wpa_supplicant-2.9.tar.gz",
-    "maintainer": "Termux members @termux"
+    "maintainer": "@termux"
   },
   {
     "name": "cgal",
@@ -8759,6 +8759,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "osm2pgsql",
+    "version": "1.4.1",
+    "description": "osm2pgsql imports OpenStreetMap (OSM) data into a PostgreSQL/PostGIS database",
+    "homepage": "https://osm2pgsql.org/",
+    "depends": ["libexpat", "proj", "bzip2", "zlib", "boost", "postgresql", "lua54"],
+    "srcurl": "https://github.com/openstreetmap/osm2pgsql/archive/1.4.1.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "osmctools",
     "version": "0.9",
     "description": "Simple tools for OpenStreetMap processing",
@@ -8891,15 +8900,6 @@
     "depends": ["libcrypt", "openssl"],
     "srcurl": "https://sourceforge.net/projects/fetchmail/files/branch_6.4/fetchmail-6.4.15.tar.xz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
-  },
-  {
-    "name": "ghc",
-    "version": "8.10.1",
-    "description": "The Glasgow Haskell Compilation system",
-    "homepage": "https://www.haskell.org/ghc/",
-    "depends": ["binutils", "clang", "iconv", "libffi", "llvm", "ncurses"],
-    "srcurl": "http://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-src.tar.xz",
-    "maintainer": "Termux members @termux"
   },
   {
     "name": "gitflow-avh",
