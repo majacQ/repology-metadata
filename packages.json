@@ -6199,7 +6199,7 @@
     "description": "Emulate chroot, bind mount and binfmt_misc for non-root users",
     "homepage": "https://proot-me.github.io/",
     "depends": ["libtalloc"],
-    "srcurl": "https://github.com/termux/proot/archive/336f4787d64e377039143ad2a50139aee4e10ad4.zip",
+    "srcurl": "https://github.com/termux/proot/archive/16f235f624931b3a9d96a2b6b2d687ed3d172852.zip",
     "maintainer": "@termux"
   },
   {
