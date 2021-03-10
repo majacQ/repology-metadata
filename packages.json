@@ -7323,7 +7323,7 @@
   },
   {
     "name": "termux-tools",
-    "version": "0.112",
+    "version": "0.113",
     "description": "Basic system tools for Termux",
     "homepage": "https://termux.com/",
     "depends": ["bzip2", "coreutils", "curl", "dash", "diffutils", "findutils", "gawk", "grep", "gzip", "less", "procps", "psmisc", "sed", "tar", "termux-am", "termux-exec", "util-linux", "xz-utils", "dialog"],
