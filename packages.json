@@ -8687,6 +8687,33 @@
     "maintainer": "@termux"
   },
   {
+    "name": "libosmium",
+    "version": "2.16.0",
+    "description": "Library for reading from and writing to OSM files in XML and PBF formats",
+    "homepage": "https://osmcode.org/libosmium/",
+    "depends": ["libprotobuf", "libosmpbf", "libprotozero", "libexpat", "zlib", "libbz2", "boost", "gdal", "proj", "liblz4"],
+    "srcurl": "https://github.com/osmcode/libosmium/archive/v2.16.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "libosmpbf",
+    "version": "1.5.0",
+    "description": "osmpbf is a Java/C library to read and write OpenStreetMap PBF files",
+    "homepage": "https://github.com/openstreetmap/OSM-binary/",
+    "depends": ["libprotobuf"],
+    "srcurl": "https://github.com/openstreetmap/OSM-binary/archive/v1.5.0.zip",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "libprotozero",
+    "version": "1.7.0",
+    "description": "Minimalistic protocol buffer decoder and encoder in C++",
+    "homepage": "https://github.com/mapbox/protozero",
+    "depends": [],
+    "srcurl": "https://github.com/mapbox/protozero/archive/v1.7.0.zip",
+    "maintainer": "@termux"
+  },
+  {
     "name": "librttopo",
     "version": "1.1.0",
     "description": "The RT Topology Library exposes an API to create and manage standard topologies",
@@ -8774,6 +8801,15 @@
     "homepage": "https://gitlab.com/osm-c-tools/osmctools",
     "depends": ["zlib"],
     "srcurl": "https://gitlab.com/osm-c-tools/osmctools/-/archive/0.9/osmctools-0.9.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "osmium-tool",
+    "version": "1.13.1",
+    "description": "A multipurpose command line tool based on the Osmium Library",
+    "homepage": "https://osmcode.org/osmium-tool/",
+    "depends": ["libosmium", "libprotozero", "boost", "libbz2", "zlib", "liblz4", "libexpat"],
+    "srcurl": "https://github.com/osmcode/osmium-tool/archive/v1.13.1.tar.gz",
     "maintainer": "@termux"
   },
   {
