@@ -682,11 +682,11 @@
   },
   {
     "name": "binaryen",
-    "version": "99",
+    "version": "100",
     "description": "Binaryen is a compiler and toolchain infrastructure library for WebAssembly",
     "homepage": "https://github.com/WebAssembly/binaryen",
     "depends": [],
-    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_99.tar.gz",
+    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_100.tar.gz",
     "maintainer": "@termux"
   },
   {
