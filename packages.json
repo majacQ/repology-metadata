@@ -1391,11 +1391,11 @@
   },
   {
     "name": "direnv",
-    "version": "2.27.0",
+    "version": "2.28.0",
     "description": "Environment switcher for shell",
     "homepage": "https://github.com/direnv/direnv",
     "depends": [],
-    "srcurl": "https://github.com/direnv/direnv/archive/v2.27.0.tar.gz",
+    "srcurl": "https://github.com/direnv/direnv/archive/v2.28.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2063,11 +2063,11 @@
   },
   {
     "name": "gdb",
-    "version": "9.2",
+    "version": "10.1",
     "description": "The standard GNU Debugger that runs on many Unix-like systems and works for many programming languages",
     "homepage": "https://www.gnu.org/software/gdb/",
     "depends": ["libc++", "liblzma", "libexpat", "readline", "ncurses", "libmpfr", "python", "zlib"],
-    "srcurl": "https://mirrors.kernel.org/gnu/gdb/gdb-9.2.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gdb/gdb-10.1.tar.xz",
     "maintainer": "@termux"
   },
   {
