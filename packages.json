@@ -4463,7 +4463,7 @@
     "version": "0.10.1",
     "description": "libstrophe is a minimal XMPP library written in C.",
     "homepage": "https://strophe.im/libstrophe",
-    "depends": ["openssl", "libexpat"],
+    "depends": ["openssl", "libexpat", "c-ares"],
     "srcurl": "https://github.com/strophe/libstrophe/releases/download/0.10.1/libstrophe-0.10.1.tar.gz",
     "maintainer": "@termux"
   },
@@ -8019,6 +8019,15 @@
     "depends": ["libxslt", "libxml2"],
     "srcurl": "http://downloads.sourceforge.net/project/xmlstar/xmlstarlet/1.6.1/xmlstarlet-1.6.1.tar.gz",
     "maintainer": "@termux"
+  },
+  {
+    "name": "xmppc",
+    "version": "0.1.0",
+    "description": "Command Line Interface Tool for XMPP",
+    "homepage": "https://codeberg.org/Anoxinon_e.V./xmppc",
+    "depends": ["libstrophe", "glib", "gpgme"],
+    "srcurl": "https://codeberg.org/Anoxinon_e.V./xmppc/archive/0.1.0.tar.gz",
+    "maintainer": "j.r <j.r@jugendhacker.de>"
   },
   {
     "name": "xorg-util-macros",
