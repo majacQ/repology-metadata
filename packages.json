@@ -5414,11 +5414,11 @@
   },
   {
     "name": "nano",
-    "version": "5.5",
+    "version": "5.6.1",
     "description": "Small, free and friendly text editor",
     "homepage": "https://www.nano-editor.org/",
     "depends": ["libandroid-support", "libandroid-glob", "ncurses"],
-    "srcurl": "https://nano-editor.org/dist/latest/nano-5.5.tar.xz",
+    "srcurl": "https://nano-editor.org/dist/latest/nano-5.6.1.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -6849,11 +6849,11 @@
   },
   {
     "name": "shfmt",
-    "version": "3.2.2",
+    "version": "3.2.4",
     "description": "A shell parser and formatter",
     "homepage": "https://github.com/mvdan/sh",
     "depends": [],
-    "srcurl": "https://github.com/mvdan/sh/archive/v3.2.2.tar.gz",
+    "srcurl": "https://github.com/mvdan/sh/archive/v3.2.4.tar.gz",
     "maintainer": "@termux"
   },
   {
