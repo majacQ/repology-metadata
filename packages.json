@@ -6965,6 +6965,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "squashfs-tools-ng",
+    "version": "1.0.4",
+    "description": "New set of tools for working with SquashFS images",
+    "homepage": "https://github.com/AgentD/squashfs-tools-ng",
+    "depends": ["zlib", "liblz4", "liblzo", "zstd"],
+    "srcurl": "https://github.com/AgentD/squashfs-tools-ng/archive/v1.0.4.tar.gz",
+    "maintainer": "WMCB-Tech @marcusz"
+  },
+  {
     "name": "squid",
     "version": "4.14",
     "description": "Full-featured Web proxy cache server",
