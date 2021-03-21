@@ -1875,11 +1875,11 @@
   },
   {
     "name": "fish",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "Shell geared towards interactive use",
     "homepage": "https://fishshell.com/",
     "depends": ["libc++", "ncurses", "libandroid-support", "ncurses-utils", "man", "bc", "pcre2", "libandroid-spawn"],
-    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.0/fish-3.2.0.tar.xz",
+    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.1/fish-3.2.1.tar.xz",
     "maintainer": "@termux"
   },
   {
