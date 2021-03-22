@@ -2001,11 +2001,11 @@
   },
   {
     "name": "fzf",
-    "version": "0.25.1",
+    "version": "0.26.0",
     "description": "Command-line fuzzy finder",
     "homepage": "https://github.com/junegunn/fzf",
     "depends": ["bash", "findutils"],
-    "srcurl": "https://github.com/junegunn/fzf/archive/0.25.1.tar.gz",
+    "srcurl": "https://github.com/junegunn/fzf/archive/0.26.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2198,11 +2198,11 @@
   },
   {
     "name": "git",
-    "version": "2.30.2",
+    "version": "2.31.0",
     "description": "Fast, scalable, distributed revision control system",
     "homepage": "https://git-scm.com/",
     "depends": ["libcurl", "libiconv", "less", "openssl", "pcre2", "zlib"],
-    "srcurl": "https://www.kernel.org/pub/software/scm/git/git-2.30.2.tar.xz",
+    "srcurl": "https://www.kernel.org/pub/software/scm/git/git-2.31.0.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -8975,11 +8975,11 @@
   },
   {
     "name": "gopass",
-    "version": "1.11.0",
+    "version": "1.12.4",
     "description": "The slightly more awesome standard unix password manager for teams.",
     "homepage": "https://github.com/gopasspw/gopass",
     "depends": ["git", "gnupg"],
-    "srcurl": "https://github.com/gopasspw/gopass/archive/v1.11.0.tar.gz",
+    "srcurl": "https://github.com/gopasspw/gopass/archive/v1.12.4.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
