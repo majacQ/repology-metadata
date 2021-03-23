@@ -10672,6 +10672,15 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
+    "name": "xorg-xrandr",
+    "version": "1.5.1",
+    "description": "Primitive command line interface to RandR extension",
+    "homepage": "https://xorg.freedesktop.org/",
+    "depends": ["libx11", "libxrandr"],
+    "srcurl": "https://gitlab.freedesktop.org/xorg/app/xrandr/-/archive/xrandr-1.5.1/xrandr-1.5.1.tar.bz2",
+    "maintainer": "@termux"
+  },
+  {
     "name": "xorg-xrdb",
     "version": "1.2.0",
     "description": "X server resource database utility",
