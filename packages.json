@@ -3302,11 +3302,11 @@
   },
   {
     "name": "libandroid-shmem",
-    "version": "0.2.1",
+    "version": "0.3",
     "description": "System V shared memory emulation on Android using ashmem",
     "homepage": "https://github.com/termux/libandroid-shmem",
     "depends": [],
-    "srcurl": "https://github.com/termux/libandroid-shmem/archive/v0.2.1.tar.gz",
+    "srcurl": "https://github.com/termux/libandroid-shmem/archive/v0.3.tar.gz",
     "maintainer": "@termux"
   },
   {
