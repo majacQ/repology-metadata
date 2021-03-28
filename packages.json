@@ -8328,7 +8328,7 @@
   },
   {
     "name": "frida-server",
-    "version": "12.11.18",
+    "version": "14.2.14",
     "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers",
     "homepage": "https://www.frida.re/",
     "depends": ["libiconv", "python"],
@@ -9002,11 +9002,11 @@
   },
   {
     "name": "haproxy",
-    "version": "2.3.5",
+    "version": "2.3.8",
     "description": "The Reliable, High Performance TCP/HTTP Load Balancer",
     "homepage": "https://www.haproxy.org/",
     "depends": ["liblua53", "openssl", "pcre", "zlib"],
-    "srcurl": "http://www.haproxy.org/download/2.3/src/haproxy-2.3.5.tar.gz",
+    "srcurl": "http://www.haproxy.org/download/2.3/src/haproxy-2.3.8.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
