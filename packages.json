@@ -646,11 +646,11 @@
   },
   {
     "name": "bat",
-    "version": "0.17.1",
+    "version": "0.18.0",
     "description": "A cat(1) clone with wings",
     "homepage": "https://github.com/sharkdp/bat",
     "depends": ["less", "libgit2"],
-    "srcurl": "https://github.com/sharkdp/bat/archive/v0.17.1.tar.gz",
+    "srcurl": "https://github.com/sharkdp/bat/archive/v0.18.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2153,11 +2153,11 @@
   },
   {
     "name": "gh",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/v1.7.0.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/v1.8.0.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
@@ -2216,29 +2216,29 @@
   },
   {
     "name": "git-delta",
-    "version": "0.6.0",
+    "version": "0.7.1",
     "description": "A syntax-highlighter for git and diff output",
     "homepage": "https://github.com/dandavison/delta",
     "depends": ["git"],
-    "srcurl": "https://github.com/dandavison/delta/archive/0.6.0.tar.gz",
+    "srcurl": "https://github.com/dandavison/delta/archive/0.7.1.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "git-lfs",
-    "version": "2.13.2",
+    "version": "2.13.3",
     "description": "Git extension for versioning large files",
     "homepage": "https://git-lfs.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/git-lfs/git-lfs/archive/v2.13.2.tar.gz",
+    "srcurl": "https://github.com/git-lfs/git-lfs/archive/v2.13.3.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "gitea",
-    "version": "1.13.2",
+    "version": "1.13.6",
     "description": "Git with a cup of tea, painless self-hosted git service",
     "homepage": "https://gitea.io",
     "depends": ["dash", "git"],
-    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.13.2.tar.gz",
+    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.13.6.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -6420,11 +6420,11 @@
   },
   {
     "name": "rclone",
-    "version": "1.54.0",
+    "version": "1.55.0",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.54.0/rclone-v1.54.0.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.55.0/rclone-v1.55.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -8211,11 +8211,11 @@
   },
   {
     "name": "zstd",
-    "version": "1.4.8",
+    "version": "1.4.9",
     "description": "Zstandard compression.",
     "homepage": "https://github.com/facebook/zstd",
     "depends": ["liblzma", "zlib"],
-    "srcurl": "https://github.com/facebook/zstd/archive/v1.4.8.tar.gz",
+    "srcurl": "https://github.com/facebook/zstd/archive/v1.4.9.tar.gz",
     "maintainer": "@termux"
   },
   {
