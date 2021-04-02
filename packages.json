@@ -646,11 +646,11 @@
   },
   {
     "name": "bat",
-    "version": "0.18.0",
+    "version": "0.17.1",
     "description": "A cat(1) clone with wings",
     "homepage": "https://github.com/sharkdp/bat",
     "depends": ["less", "libgit2"],
-    "srcurl": "https://github.com/sharkdp/bat/archive/v0.18.0.tar.gz",
+    "srcurl": "https://github.com/sharkdp/bat/archive/v0.17.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1668,11 +1668,11 @@
   },
   {
     "name": "emacs",
-    "version": "27.1",
+    "version": "27.2",
     "description": "Extensible, customizable text editor-and more",
     "homepage": "https://www.gnu.org/software/emacs/",
     "depends": ["ncurses", "gnutls", "libxml2"],
-    "srcurl": "https://ftp.gnu.org/gnu/emacs/emacs-27.1.tar.xz",
+    "srcurl": "https://ftp.gnu.org/gnu/emacs/emacs-27.2.tar.xz",
     "maintainer": "@termux"
   },
   {
