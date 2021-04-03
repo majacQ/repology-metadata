@@ -2198,11 +2198,11 @@
   },
   {
     "name": "git",
-    "version": "2.31.0",
+    "version": "2.31.1",
     "description": "Fast, scalable, distributed revision control system",
     "homepage": "https://git-scm.com/",
     "depends": ["libcurl", "libiconv", "less", "openssl", "pcre2", "zlib"],
-    "srcurl": "https://www.kernel.org/pub/software/scm/git/git-2.31.0.tar.xz",
+    "srcurl": "https://www.kernel.org/pub/software/scm/git/git-2.31.1.tar.xz",
     "maintainer": "@termux"
   },
   {
