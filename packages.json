@@ -2153,11 +2153,11 @@
   },
   {
     "name": "gh",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/v1.8.0.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/v1.8.1.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
@@ -5862,11 +5862,11 @@
   },
   {
     "name": "p7zip",
-    "version": "17.03",
+    "version": "17.04",
     "description": "Command-line version of the 7zip compressed file archiver",
     "homepage": "https://github.com/jinfeihan57/p7zip",
     "depends": ["libc++", "libiconv"],
-    "srcurl": "https://github.com/jinfeihan57/p7zip/archive/v17.03.tar.gz",
+    "srcurl": "https://github.com/jinfeihan57/p7zip/archive/v17.04.tar.gz",
     "maintainer": "@termux"
   },
   {
