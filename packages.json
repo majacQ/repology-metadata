@@ -359,6 +359,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "android-tools",
+    "version": "30.0.5p1",
+    "description": "Android platform tools",
+    "homepage": "https://developer.android.com/",
+    "depends": ["libc++", "libusb", "pcre2", "googletest", "libprotobuf", "brotli", "zstd", "liblz4"],
+    "srcurl": "https://github.com/nmeum/android-tools/releases/download/30.0.5p1/android-tools-30.0.5p1.tar.xz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "antibody",
     "version": "6.1.1",
     "description": "The fastest shell plugin manager",
@@ -2996,6 +3005,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "jove",
+    "version": "4.17.3.7",
+    "description": "Jove is a compact, powerful, Emacs-style text-editor.",
+    "homepage": "https://directory.fsf.org/wiki/Jove",
+    "depends": ["ncurses", "ncurses-utils"],
+    "srcurl": "https://github.com/jonmacs/jove/archive/4.17.3.7.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "jp2a",
     "version": "1.1.0",
     "description": "A simple JPEG to ASCII converter",
@@ -3992,11 +4010,11 @@
   },
   {
     "name": "libmediainfo",
-    "version": "20.09",
+    "version": "21.03",
     "description": "Library for reading information from media files",
     "homepage": "https://mediaarea.net/en/MediaInfo",
     "depends": ["libcurl", "libzen", "zlib"],
-    "srcurl": "https://mediaarea.net/download/source/libmediainfo/20.09/libmediainfo_20.09.tar.gz",
+    "srcurl": "https://mediaarea.net/download/source/libmediainfo/21.03/libmediainfo_21.03.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4820,11 +4838,11 @@
   },
   {
     "name": "libzen",
-    "version": "0.4.38",
+    "version": "0.4.39",
     "description": "ZenLib C++ utility library",
     "homepage": "https://mediaarea.net/en/MediaInfo",
     "depends": ["libandroid-glob", "libandroid-support"],
-    "srcurl": "https://mediaarea.net/download/source/libzen/0.4.38/libzen_0.4.38.tar.gz",
+    "srcurl": "https://mediaarea.net/download/source/libzen/0.4.39/libzen_0.4.39.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5117,11 +5135,11 @@
   },
   {
     "name": "mediainfo",
-    "version": "20.09",
+    "version": "21.03",
     "description": "Command-line utility for reading information from media files",
     "homepage": "https://mediaarea.net/en/MediaInfo",
     "depends": ["libmediainfo"],
-    "srcurl": "https://mediaarea.net/download/source/mediainfo/20.09/mediainfo_20.09.tar.gz",
+    "srcurl": "https://mediaarea.net/download/source/mediainfo/21.03/mediainfo_21.03.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7350,7 +7368,7 @@
   },
   {
     "name": "termux-tools",
-    "version": "0.115",
+    "version": "0.116",
     "description": "Basic system tools for Termux",
     "homepage": "https://termux.com/",
     "depends": ["bzip2", "coreutils", "curl", "dash", "diffutils", "findutils", "gawk", "grep", "gzip", "less", "procps", "psmisc", "sed", "tar", "termux-am", "termux-exec", "util-linux", "xz-utils", "dialog"],
@@ -8013,11 +8031,11 @@
   },
   {
     "name": "xmake",
-    "version": "2.5.2",
+    "version": "2.5.3",
     "description": "A cross-platform build utility based on Lua",
     "homepage": "https://xmake.io/",
     "depends": [],
-    "srcurl": "https://github.com/xmake-io/xmake/releases/download/v2.5.2/xmake-v2.5.2.tar.gz",
+    "srcurl": "https://github.com/xmake-io/xmake/releases/download/v2.5.3/xmake-v2.5.3.tar.gz",
     "maintainer": "Ruki Wang @waruqi"
   },
   {
