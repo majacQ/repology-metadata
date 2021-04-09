@@ -6348,11 +6348,11 @@
   },
   {
     "name": "python",
-    "version": "3.9.2",
+    "version": "3.9.4",
     "description": "Python 3 programming language intended to enable clear programs",
     "homepage": "https://python.org/",
     "depends": ["gdbm", "libandroid-support", "libbz2", "libcrypt", "libffi", "liblzma", "libsqlite", "ncurses", "ncurses-ui-libs", "openssl", "readline", "zlib"],
-    "srcurl": "https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tar.xz",
+    "srcurl": "https://www.python.org/ftp/python/3.9.4/Python-3.9.4.tar.xz",
     "maintainer": "@termux"
   },
   {
