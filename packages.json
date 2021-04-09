@@ -5550,7 +5550,7 @@
     "version": "20210205",
     "description": "A version of mutt with added features",
     "homepage": "https://neomutt.org/",
-    "depends": ["gdbm", "krb5", "libiconv", "libsasl", "ncurses", "openssl", "zlib", "zstd"],
+    "depends": ["gdbm", "krb5", "libiconv", "libsasl", "ncurses", "notmuch", "openssl", "zlib", "zstd"],
     "srcurl": "https://github.com/neomutt/neomutt/archive/20210205.tar.gz",
     "maintainer": "@termux"
   },
