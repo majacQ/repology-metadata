@@ -9110,11 +9110,10 @@
   },
   {
     "name": "pandoc",
-    "version": "2.11.4",
+    "version": "2.13",
     "description": "Universal markup converter",
     "homepage": "https://pandoc.org/",
-    "depends": ["qemu-user-x86_64"],
-    "srcurl": "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-linux-amd64.tar.gz",
+    "depends": [],
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
