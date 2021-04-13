@@ -861,11 +861,11 @@
   },
   {
     "name": "ca-certificates",
-    "version": "20210125",
+    "version": "20210413",
     "description": "Common CA certificates",
-    "homepage": "https://curl.haxx.se/docs/caextract.html",
+    "homepage": "https://curl.se/docs/caextract.html",
     "depends": [],
-    "srcurl": "https://curl.haxx.se/ca/cacert.pem",
+    "srcurl": "https://curl.se/ca/cacert.pem",
     "maintainer": "@termux"
   },
   {
@@ -3515,11 +3515,11 @@
   },
   {
     "name": "libcurl",
-    "version": "7.75.0",
+    "version": "7.76.0",
     "description": "Easy-to-use client-side URL transfer library",
-    "homepage": "https://curl.haxx.se/",
+    "homepage": "https://curl.se/",
     "depends": ["libnghttp2", "libssh2", "openssl", "(>=", "1.1.1)", "zlib"],
-    "srcurl": "https://curl.haxx.se/download/curl-7.75.0.tar.bz2",
+    "srcurl": "https://curl.se/download/curl-7.76.0.tar.bz2",
     "maintainer": "@termux"
   },
   {
@@ -5826,11 +5826,11 @@
   },
   {
     "name": "openssl",
-    "version": "1.1.1i",
+    "version": "1.1.1k",
     "description": "Library implementing the SSL and TLS protocols as well as general purpose cryptography functions",
     "homepage": "https://www.openssl.org/",
     "depends": ["ca-certificates", "zlib"],
-    "srcurl": "https://www.openssl.org/source/openssl-1.1.1i.tar.gz",
+    "srcurl": "https://www.openssl.org/source/openssl-1.1.1k.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7502,11 +7502,11 @@
   },
   {
     "name": "tmux",
-    "version": "3.1c",
+    "version": "3.2",
     "description": "Terminal multiplexer",
     "homepage": "https://tmux.github.io/",
     "depends": ["ncurses", "libevent", "libandroid-support", "libandroid-glob"],
-    "srcurl": "https://github.com/tmux/tmux/archive/3.1c.tar.gz",
+    "srcurl": "https://github.com/tmux/tmux/archive/3.2.tar.gz",
     "maintainer": "@termux"
   },
   {
