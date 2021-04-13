@@ -5,7 +5,7 @@
     "description": "Bloody 2D action deathmatch-like game in ASCII-ART",
     "homepage": "https://github.com/hackndev/0verkill",
     "depends": [],
-    "srcurl": "https://github.com/hackndev/0verkill/archive/522f11a3e40670bbf85e0fada285141448167968.tar.gz",
+    "srcurl": "https://github.com/ravener/0verkill/archive/refs/tags/v0.16.tar.gz",
     "maintainer": "@termux"
   },
   {
