@@ -3533,11 +3533,11 @@
   },
   {
     "name": "libdav1d",
-    "version": "0.4.0",
+    "version": "0.8.2",
     "description": "AV1 cross-platform decoder focused on speed and correctness",
     "homepage": "https://code.videolan.org/videolan/dav1d/",
     "depends": [],
-    "srcurl": "https://downloads.videolan.org/pub/videolan/dav1d/0.4.0/dav1d-0.4.0.tar.xz",
+    "srcurl": "https://downloads.videolan.org/pub/videolan/dav1d/0.8.2/dav1d-0.8.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -4127,11 +4127,11 @@
   },
   {
     "name": "libnettle",
-    "version": "3.7",
+    "version": "3.7.2",
     "description": "Cryptographic library that is designed to fit easily in more or less any context",
     "homepage": "https://www.lysator.liu.se/~nisse/nettle/",
     "depends": ["libgmp"],
-    "srcurl": "https://mirrors.kernel.org/gnu/nettle/nettle-3.7.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/nettle/nettle-3.7.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4649,11 +4649,11 @@
   },
   {
     "name": "libvpx",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "description": "VP8 & VP9 Codec SDK",
     "homepage": "https://www.webmproject.org",
     "depends": ["libc++"],
-    "srcurl": "https://github.com/webmproject/libvpx/archive/v1.9.0.tar.gz",
+    "srcurl": "https://github.com/webmproject/libvpx/archive/v1.10.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4712,11 +4712,11 @@
   },
   {
     "name": "libx264",
-    "version": "20190215",
+    "version": "1:0.161.3049",
     "description": "Library for encoding video streams into the H.264/MPEG-4 AVC format",
     "homepage": "https://www.videolan.org/developers/x264.html",
     "depends": [],
-    "srcurl": "http://ftp.videolan.org/pub/videolan/x264/snapshots/x264-snapshot-20190215-2245-stable.tar.bz2",
+    "srcurl": "https://code.videolan.org/videolan/x264/-/archive/55d517bc4569272a2c9a367a4106c234aba2ffbc/x264-55d517bc4569272a2c9a367a4106c234aba2ffbc.tar.bz2",
     "maintainer": "@termux"
   },
   {
