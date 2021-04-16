@@ -2369,11 +2369,11 @@
   },
   {
     "name": "golang",
-    "version": "2:1.16",
+    "version": "2:1.16.3",
     "description": "Go programming language compiler",
     "homepage": "https://golang.org/",
     "depends": ["clang"],
-    "srcurl": "https://storage.googleapis.com/golang/go1.16.src.tar.gz",
+    "srcurl": "https://storage.googleapis.com/golang/go1.16.3.src.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3276,11 +3276,11 @@
   },
   {
     "name": "lf",
-    "version": "20",
+    "version": "22",
     "description": "Terminal file manager",
     "homepage": "https://github.com/gokcehan/lf",
     "depends": [],
-    "srcurl": "https://github.com/gokcehan/lf/archive/r20.tar.gz",
+    "srcurl": "https://github.com/gokcehan/lf/archive/r22.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5619,11 +5619,11 @@
   },
   {
     "name": "nim",
-    "version": "1.4.2",
+    "version": "1.4.6",
     "description": "Nim programming language compiler",
     "homepage": "https://nim-lang.org/",
     "depends": ["clang", "git", "libandroid-glob"],
-    "srcurl": "https://nim-lang.org/download/nim-1.4.2.tar.xz",
+    "srcurl": "https://nim-lang.org/download/nim-1.4.6.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -5655,11 +5655,11 @@
   },
   {
     "name": "nnn",
-    "version": "3.5",
+    "version": "4.0",
     "description": "Free, fast, friendly file browser",
     "homepage": "https://github.com/jarun/nnn",
     "depends": ["debianutils", "file", "findutils", "readline", "wget", "libandroid-support"],
-    "srcurl": "https://github.com/jarun/nnn/archive/v3.5.tar.gz",
+    "srcurl": "https://github.com/jarun/nnn/archive/v4.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -6679,11 +6679,11 @@
   },
   {
     "name": "rust",
-    "version": "1.50.0",
+    "version": "1.51.0",
     "description": "Systems programming language focused on safety, speed and concurrency",
     "homepage": "https://www.rust-lang.org/",
     "depends": ["libc++", "clang", "openssl", "lld", "zlib", "libllvm"],
-    "srcurl": "https://static.rust-lang.org/dist/rustc-1.50.0-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/rustc-1.51.0-src.tar.xz",
     "maintainer": "Kevin Cotugno @kcotugno"
   },
   {
