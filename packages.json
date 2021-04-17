@@ -7289,11 +7289,11 @@
   },
   {
     "name": "termux-api",
-    "version": "0.54",
+    "version": "0.55",
     "description": "Termux API commands (install also the Termux:API app)",
     "homepage": "https://wiki.termux.com/wiki/Termux:API",
     "depends": ["bash", "util-linux"],
-    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.54.tar.gz",
+    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.55.tar.gz",
     "maintainer": "@termux"
   },
   {
