@@ -2243,11 +2243,11 @@
   },
   {
     "name": "gitea",
-    "version": "1.13.6",
+    "version": "1.14.1",
     "description": "Git with a cup of tea, painless self-hosted git service",
     "homepage": "https://gitea.io",
     "depends": ["dash", "git"],
-    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.13.6.tar.gz",
+    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.14.1.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -4451,20 +4451,20 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.34.0",
+    "version": "3.35.4",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": ["zlib"],
-    "srcurl": "https://www.sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "libsqlite-tcl",
-    "version": "3.34.0",
+    "version": "3.35.4",
     "description": "tcl bindings for SQLite",
     "homepage": "https://www.sqlite.org",
     "depends": ["libsqlite", "tcl"],
-    "srcurl": "https://www.sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7421,11 +7421,11 @@
   },
   {
     "name": "tig",
-    "version": "2.5.1",
+    "version": "2.5.3",
     "description": "Ncurses-based text-mode interface for git",
     "homepage": "https://jonas.github.io/tig/",
     "depends": ["libiconv", "ncurses", "git", "libandroid-support"],
-    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.5.1/tig-2.5.1.tar.gz",
+    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.5.3/tig-2.5.3.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -8513,6 +8513,15 @@
     "homepage": "https://github.com/alobbs/macchanger",
     "depends": [],
     "srcurl": "https://github.com/alobbs/macchanger/archive/1.7.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "mdk4",
+    "version": "4.1",
+    "description": "MDK is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses.",
+    "homepage": "https://github.com/aircrack-ng/mdk4",
+    "depends": ["aircrack-ng", "libnl", "libpcap"],
+    "srcurl": "https://github.com/aircrack-ng/mdk4/archive/fc03b0ece893fd8d3f546d915511f01ba3faebc8.zip",
     "maintainer": "@termux"
   },
   {
