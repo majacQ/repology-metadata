@@ -10491,6 +10491,15 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
+    "name": "xfce4-whiskermenu-plugin",
+    "version": "2.5.3",
+    "description": "Alternate menu plugin for the Xfce desktop environment",
+    "homepage": "https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start",
+    "depends": ["exo", "garcon", "gtk3", "libxfce4ui", "libxfce4util", "xfce4-panel", "xorgproto", "gettext"],
+    "srcurl": "https://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.5/xfce4-whiskermenu-plugin-2.5.3.tar.bz2",
+    "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
     "name": "xfconf",
     "version": "4.16.0",
     "description": "Flexible, easy-to-use configuration management system",
