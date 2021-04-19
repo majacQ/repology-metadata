@@ -987,11 +987,11 @@
   },
   {
     "name": "chezmoi",
-    "version": "1.8.11",
+    "version": "2.0.10",
     "description": "Manage your dotfiles across multiple machines",
     "homepage": "https://chezmoi.io",
     "depends": [],
-    "srcurl": "https://github.com/twpayne/chezmoi/archive/v1.8.11.tar.gz",
+    "srcurl": "https://github.com/twpayne/chezmoi/archive/v2.0.10.tar.gz",
     "maintainer": "Henrik Grimler @Grimler91"
   },
   {
@@ -2243,11 +2243,11 @@
   },
   {
     "name": "gitea",
-    "version": "1.13.6",
+    "version": "1.14.1",
     "description": "Git with a cup of tea, painless self-hosted git service",
     "homepage": "https://gitea.io",
     "depends": ["dash", "git"],
-    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.13.6.tar.gz",
+    "srcurl": "https://github.com/go-gitea/gitea/archive/v1.14.1.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -2369,11 +2369,11 @@
   },
   {
     "name": "golang",
-    "version": "2:1.16",
+    "version": "2:1.16.3",
     "description": "Go programming language compiler",
     "homepage": "https://golang.org/",
     "depends": ["clang"],
-    "srcurl": "https://storage.googleapis.com/golang/go1.16.src.tar.gz",
+    "srcurl": "https://storage.googleapis.com/golang/go1.16.3.src.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3276,11 +3276,11 @@
   },
   {
     "name": "lf",
-    "version": "20",
+    "version": "22",
     "description": "Terminal file manager",
     "homepage": "https://github.com/gokcehan/lf",
     "depends": [],
-    "srcurl": "https://github.com/gokcehan/lf/archive/r20.tar.gz",
+    "srcurl": "https://github.com/gokcehan/lf/archive/r22.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4451,20 +4451,20 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.34.0",
+    "version": "3.35.4",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": ["zlib"],
-    "srcurl": "https://www.sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "libsqlite-tcl",
-    "version": "3.34.0",
+    "version": "3.35.4",
     "description": "tcl bindings for SQLite",
     "homepage": "https://www.sqlite.org",
     "depends": ["libsqlite", "tcl"],
-    "srcurl": "https://www.sqlite.org/2020/sqlite-autoconf-3340000.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5619,11 +5619,11 @@
   },
   {
     "name": "nim",
-    "version": "1.4.2",
+    "version": "1.4.6",
     "description": "Nim programming language compiler",
     "homepage": "https://nim-lang.org/",
     "depends": ["clang", "git", "libandroid-glob"],
-    "srcurl": "https://nim-lang.org/download/nim-1.4.2.tar.xz",
+    "srcurl": "https://nim-lang.org/download/nim-1.4.6.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -5655,11 +5655,11 @@
   },
   {
     "name": "nnn",
-    "version": "3.5",
+    "version": "4.0",
     "description": "Free, fast, friendly file browser",
     "homepage": "https://github.com/jarun/nnn",
     "depends": ["debianutils", "file", "findutils", "readline", "wget", "libandroid-support"],
-    "srcurl": "https://github.com/jarun/nnn/archive/v3.5.tar.gz",
+    "srcurl": "https://github.com/jarun/nnn/archive/v4.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -6679,11 +6679,11 @@
   },
   {
     "name": "rust",
-    "version": "1.50.0",
+    "version": "1.51.0",
     "description": "Systems programming language focused on safety, speed and concurrency",
     "homepage": "https://www.rust-lang.org/",
     "depends": ["libc++", "clang", "openssl", "lld", "zlib", "libllvm"],
-    "srcurl": "https://static.rust-lang.org/dist/rustc-1.50.0-src.tar.xz",
+    "srcurl": "https://static.rust-lang.org/dist/rustc-1.51.0-src.tar.xz",
     "maintainer": "Kevin Cotugno @kcotugno"
   },
   {
@@ -6993,11 +6993,11 @@
   },
   {
     "name": "squashfs-tools-ng",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "description": "New set of tools for working with SquashFS images",
     "homepage": "https://github.com/AgentD/squashfs-tools-ng",
     "depends": ["zlib", "liblz4", "liblzo", "zstd"],
-    "srcurl": "https://github.com/AgentD/squashfs-tools-ng/archive/v1.0.4.tar.gz",
+    "srcurl": "https://github.com/AgentD/squashfs-tools-ng/archive/v1.1.0.tar.gz",
     "maintainer": "WMCB-Tech @marcusz"
   },
   {
@@ -7289,11 +7289,11 @@
   },
   {
     "name": "termux-api",
-    "version": "0.54",
+    "version": "0.55",
     "description": "Termux API commands (install also the Termux:API app)",
     "homepage": "https://wiki.termux.com/wiki/Termux:API",
     "depends": ["bash", "util-linux"],
-    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.54.tar.gz",
+    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.55.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7368,7 +7368,7 @@
   },
   {
     "name": "termux-tools",
-    "version": "0.116",
+    "version": "0.118",
     "description": "Basic system tools for Termux",
     "homepage": "https://termux.com/",
     "depends": ["bzip2", "coreutils", "curl", "dash", "diffutils", "findutils", "gawk", "grep", "gzip", "less", "procps", "psmisc", "sed", "tar", "termux-am", "termux-exec", "util-linux", "xz-utils", "dialog"],
@@ -7421,11 +7421,11 @@
   },
   {
     "name": "tig",
-    "version": "2.5.1",
+    "version": "2.5.3",
     "description": "Ncurses-based text-mode interface for git",
     "homepage": "https://jonas.github.io/tig/",
     "depends": ["libiconv", "ncurses", "git", "libandroid-support"],
-    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.5.1/tig-2.5.1.tar.gz",
+    "srcurl": "https://github.com/jonas/tig/releases/download/tig-2.5.3/tig-2.5.3.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -8513,6 +8513,15 @@
     "homepage": "https://github.com/alobbs/macchanger",
     "depends": [],
     "srcurl": "https://github.com/alobbs/macchanger/archive/1.7.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "mdk4",
+    "version": "4.1",
+    "description": "MDK is a proof-of-concept tool to exploit common IEEE 802.11 protocol weaknesses.",
+    "homepage": "https://github.com/aircrack-ng/mdk4",
+    "depends": ["aircrack-ng", "libnl", "libpcap"],
+    "srcurl": "https://github.com/aircrack-ng/mdk4/archive/fc03b0ece893fd8d3f546d915511f01ba3faebc8.zip",
     "maintainer": "@termux"
   },
   {
@@ -10479,6 +10488,15 @@
     "homepage": "https://docs.xfce.org/apps/terminal/start",
     "depends": ["desktop-file-utils", "exo", "hicolor-icon-theme", "garcon", "libxfce4ui", "xfconf", "libvte"],
     "srcurl": "https://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.10.tar.bz2",
+    "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "xfce4-whiskermenu-plugin",
+    "version": "2.5.3",
+    "description": "Alternate menu plugin for the Xfce desktop environment",
+    "homepage": "https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start",
+    "depends": ["exo", "garcon", "gtk3", "libxfce4ui", "libxfce4util", "xfce4-panel", "xorgproto", "gettext"],
+    "srcurl": "https://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.5/xfce4-whiskermenu-plugin-2.5.3.tar.bz2",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
