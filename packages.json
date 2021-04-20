@@ -5467,6 +5467,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "navi",
+    "version": "2.16.0",
+    "description": "An interactive cheatsheet tool for the command-line",
+    "homepage": "https://github.com/denisidoro/navi",
+    "depends": [],
+    "srcurl": "https://github.com/denisidoro/navi/archive/v2.16.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "ncdc",
     "version": "1.22.1",
     "description": "Modern and lightweight direct connect client with a friendly ncurses interface",
