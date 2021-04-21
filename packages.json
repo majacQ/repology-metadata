@@ -2729,11 +2729,11 @@
   },
   {
     "name": "hugo",
-    "version": "0.80.0",
+    "version": "0.82.1",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": ["libc++"],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/v0.80.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/v0.82.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5727,11 +5727,11 @@
   },
   {
     "name": "o-editor",
-    "version": "2.35.0",
+    "version": "2.36.0",
     "description": "Small, fast and limited text editor",
     "homepage": "https://github.com/xyproto/o",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/o/archive/2.35.0.tar.gz",
+    "srcurl": "https://github.com/xyproto/o/archive/2.36.0.tar.gz",
     "maintainer": "Alexander F. Rødseth <xyproto@archlinux.org>"
   },
   {
