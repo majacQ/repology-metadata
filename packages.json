@@ -2162,11 +2162,11 @@
   },
   {
     "name": "gh",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/v1.9.1.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/v1.9.2.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
