@@ -1104,7 +1104,7 @@
   },
   {
     "name": "composer",
-    "version": "2.0.9",
+    "version": "2.0.12",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
@@ -1167,11 +1167,11 @@
   },
   {
     "name": "croc",
-    "version": "8.6.7",
+    "version": "9.1.0",
     "description": "Easily and securely send things from one computer to another.",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/releases/download/v8.6.7/croc_8.6.7_src.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/releases/download/v9.1.0/croc_9.1.0_src.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1848,11 +1848,11 @@
   },
   {
     "name": "file",
-    "version": "5.39",
+    "version": "5.40",
     "description": "Command-line tool that tells you in words what kind of data a file contains",
     "homepage": "https://darwinsys.com/file/",
     "depends": ["zlib"],
-    "srcurl": "ftp://ftp.astron.com/pub/file/file-5.39.tar.gz",
+    "srcurl": "ftp://ftp.astron.com/pub/file/file-5.40.tar.gz",
     "maintainer": "@termux"
   },
   {
