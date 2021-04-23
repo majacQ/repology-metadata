@@ -1023,11 +1023,11 @@
   },
   {
     "name": "clash",
-    "version": "1.3.5",
+    "version": "1.5.0",
     "description": "A rule-based tunnel in Go.",
     "homepage": "https://github.com/Dreamacro/clash",
     "depends": [],
-    "srcurl": "https://github.com/Dreamacro/clash/archive/v1.3.5.tar.gz",
+    "srcurl": "https://github.com/Dreamacro/clash/archive/v1.5.0.tar.gz",
     "maintainer": "Philipp Schmitt <philipp@schmitt.co>"
   },
   {
@@ -1104,7 +1104,7 @@
   },
   {
     "name": "composer",
-    "version": "2.0.9",
+    "version": "2.0.12",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
@@ -1167,11 +1167,11 @@
   },
   {
     "name": "croc",
-    "version": "8.6.7",
+    "version": "9.1.0",
     "description": "Easily and securely send things from one computer to another.",
     "homepage": "https://github.com/schollz/croc",
     "depends": [],
-    "srcurl": "https://github.com/schollz/croc/releases/download/v8.6.7/croc_8.6.7_src.tar.gz",
+    "srcurl": "https://github.com/schollz/croc/releases/download/v9.1.0/croc_9.1.0_src.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1848,11 +1848,11 @@
   },
   {
     "name": "file",
-    "version": "5.39",
+    "version": "5.40",
     "description": "Command-line tool that tells you in words what kind of data a file contains",
     "homepage": "https://darwinsys.com/file/",
     "depends": ["zlib"],
-    "srcurl": "ftp://ftp.astron.com/pub/file/file-5.39.tar.gz",
+    "srcurl": "ftp://ftp.astron.com/pub/file/file-5.40.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2162,11 +2162,11 @@
   },
   {
     "name": "gh",
-    "version": "1.8.1",
+    "version": "1.9.2",
     "description": "GitHub’s official command line tool",
     "homepage": "https://cli.github.com/",
     "depends": [],
-    "srcurl": "https://github.com/cli/cli/archive/v1.8.1.tar.gz",
+    "srcurl": "https://github.com/cli/cli/archive/v1.9.2.tar.gz",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
@@ -2729,11 +2729,11 @@
   },
   {
     "name": "hugo",
-    "version": "0.80.0",
+    "version": "0.82.1",
     "description": "A fast and flexible static site generator",
     "homepage": "https://gohugo.io/",
     "depends": ["libc++"],
-    "srcurl": "https://github.com/gohugoio/hugo/archive/v0.80.0.tar.gz",
+    "srcurl": "https://github.com/gohugoio/hugo/archive/v0.82.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5467,6 +5467,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "navi",
+    "version": "2.16.0",
+    "description": "An interactive cheatsheet tool for the command-line",
+    "homepage": "https://github.com/denisidoro/navi",
+    "depends": [],
+    "srcurl": "https://github.com/denisidoro/navi/archive/v2.16.0.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "ncdc",
     "version": "1.22.1",
     "description": "Modern and lightweight direct connect client with a friendly ncurses interface",
@@ -5718,11 +5727,11 @@
   },
   {
     "name": "o-editor",
-    "version": "2.35.0",
+    "version": "2.36.0",
     "description": "Small, fast and limited text editor",
     "homepage": "https://github.com/xyproto/o",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/o/archive/2.35.0.tar.gz",
+    "srcurl": "https://github.com/xyproto/o/archive/2.36.0.tar.gz",
     "maintainer": "Alexander F. Rødseth <xyproto@archlinux.org>"
   },
   {
@@ -6051,11 +6060,11 @@
   },
   {
     "name": "php",
-    "version": "8.0.2",
+    "version": "8.0.3",
     "description": "Server-side, HTML-embedded scripting language",
     "homepage": "https://php.net",
     "depends": ["freetype", "libandroid-glob", "libandroid-support", "libbz2", "libcrypt", "libcurl", "libgd", "libgmp", "libiconv", "liblzma", "libsqlite", "libxml2", "libxslt", "libzip", "oniguruma", "openssl", "pcre2", "readline", "zlib", "libicu", "libffi", "tidy"],
-    "srcurl": "https://github.com/php/php-src/archive/php-8.0.2.tar.gz",
+    "srcurl": "https://github.com/php/php-src/archive/php-8.0.3.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -8121,11 +8130,11 @@
   },
   {
     "name": "yadm",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "description": "Yet Another Dotfiles Manager",
     "homepage": "https://github.com/TheLocehiliosan/yadm",
     "depends": ["git"],
-    "srcurl": "https://github.com/TheLocehiliosan/yadm/archive/3.0.2.tar.gz",
+    "srcurl": "https://github.com/TheLocehiliosan/yadm/archive/3.1.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -10294,6 +10303,15 @@
     "maintainer": "Termux members @termux"
   },
   {
+    "name": "tumbler",
+    "version": "4.16.0",
+    "description": "Tumbler is a D-Bus service for applications to request thumbnails for various URI schemes and MIME type",
+    "homepage": "https://docs.xfce.org/xfce/tumbler/start",
+    "depends": ["glib", "gdk-pixbuf", "freetype", "libpng"],
+    "srcurl": "https://archive.xfce.org/src/xfce/tumbler/4.16/tumbler-4.16.0.tar.bz2",
+    "maintainer": "@termux"
+  },
+  {
     "name": "uget",
     "version": "2.2.3",
     "description": "GTK+ download manager featuring download classification and HTML import",
@@ -10455,6 +10473,15 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
+    "name": "xfce4-clipman-plugin",
+    "version": "1.6.1",
+    "description": "Clipman is a clipboard manager for Xfce",
+    "homepage": "https://docs.xfce.org/panel-plugins/xfce4-clipman-plugin/start",
+    "depends": ["libqrencode", "libxtst", "xfce4-panel"],
+    "srcurl": "https://archive.xfce.org/src/panel-plugins/xfce4-clipman-plugin/1.6/xfce4-clipman-plugin-1.6.1.tar.bz2",
+    "maintainer": "Termux members @termux"
+  },
+  {
     "name": "xfce4-panel",
     "version": "4.15.2",
     "description": "Panel for the XFCE environment",
@@ -10480,6 +10507,15 @@
     "depends": ["exo", "garcon", "libnotify", "libxfce4ui", "libxklavier", "lxde-icon-theme"],
     "srcurl": "http://archive.xfce.org/src/xfce/xfce4-settings/4.16/xfce4-settings-4.16.0.tar.bz2",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "xfce4-taskmanager",
+    "version": "1.5.2",
+    "description": "Easy to use task manager",
+    "homepage": "https://docs.xfce.org/apps/xfce4-taskmanager/start",
+    "depends": ["xfce4-panel", "libxmu"],
+    "srcurl": "https://archive.xfce.org/src/apps/xfce4-taskmanager/1.5/xfce4-taskmanager-1.5.2.tar.bz2",
+    "maintainer": "@termux"
   },
   {
     "name": "xfce4-terminal",
