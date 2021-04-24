@@ -1685,6 +1685,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "emscripten",
+    "version": "2.0.17",
+    "description": "Emscripten: An LLVM-to-WebAssembly Compiler",
+    "homepage": "https://emscripten.org",
+    "depends": ["python", "nodejs"],
+    "srcurl": "https://github.com/emscripten-core/emscripten.git",
+    "maintainer": "@truboxl"
+  },
+  {
     "name": "enchant",
     "version": "2.2.15",
     "description": "Wraps a number of different spelling libraries and programs with a consistent interface.",
@@ -9449,6 +9458,15 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
+    "name": "gigolo",
+    "version": "0.5.2",
+    "description": "Gigolo is a frontend to easily manage connections to local and remote filesystems using GIO/GVfs.",
+    "homepage": "https://docs.xfce.org/apps/gigolo/start",
+    "depends": ["gtk3"],
+    "srcurl": "https://archive.xfce.org/src/apps/gigolo/0.5/gigolo-0.5.2.tar.bz2",
+    "maintainer": "@termux"
+  },
+  {
     "name": "glew",
     "version": "2.2.0",
     "description": "The OpenGL Extension Wrangler Library",
@@ -10148,6 +10166,15 @@
     "depends": ["libandroid-shmem", "libsm", "libtheora", "libvorbis", "libxdamage", "libxext", "zlib"],
     "srcurl": "https://downloads.sourceforge.net/recordmydesktop/recordmydesktop-0.3.8.1.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "ristretto",
+    "version": "0.10.0",
+    "description": "The Ristretto Image Viewer is an application that can be used to view, and scroll through images.",
+    "homepage": "https://docs.xfce.org/apps/ristretto/start",
+    "depends": ["gtk3", "libexif", "libxfce4util", "libxfce4ui"],
+    "srcurl": "https://archive.xfce.org/src/apps/ristretto/0.10/ristretto-0.10.0.tar.bz2",
+    "maintainer": "@termux"
   },
   {
     "name": "rofi",
