@@ -2979,11 +2979,11 @@
   },
   {
     "name": "jftui",
-    "version": "0.4.0",
+    "version": "0.5.1",
     "description": "jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server.",
     "homepage": "https://github.com/Aanok/jftui",
     "depends": ["libcurl", "yajl", "mpv"],
-    "srcurl": "https://github.com/Aanok/jftui/archive/v0.4.0.tar.gz",
+    "srcurl": "https://github.com/Aanok/jftui/archive/v0.5.1.tar.gz",
     "maintainer": "Maxr1998 <max.rumpf1998@gmail.com>"
   },
   {
