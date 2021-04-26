@@ -2495,47 +2495,47 @@
   },
   {
     "name": "gst-plugins-bad",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Bad Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libbz2", "libcurl", "libiconv", "libpng", "librsvg", "libssh2", "libsndfile", "libx264", "libx265", "littlecms", "openal-soft", "openjpeg"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-base",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer base plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gstreamer", "libandroid-shmem", "libjpeg-turbo", "libopus", "libpng", "libvorbis", "zlib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-good",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Good Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libandroid-shmem", "libcaca", "libsoup", "libjpeg-turbo", "libpng", "libflac", "libbz2", "libvpx", "pulseaudio", "libmp3lame", "gstreamer", "libogg", "zlib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-ugly",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Ugly Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libx264"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gstreamer",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "Open source multimedia framework",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["glib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -6456,11 +6456,11 @@
   },
   {
     "name": "rclone",
-    "version": "1.55.0",
+    "version": "1.55.1",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.55.0/rclone-v1.55.0.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.55.1/rclone-v1.55.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7307,11 +7307,11 @@
   },
   {
     "name": "termux-api",
-    "version": "0.55",
+    "version": "0.56",
     "description": "Termux API commands (install also the Termux:API app)",
     "homepage": "https://wiki.termux.com/wiki/Termux:API",
     "depends": ["bash", "util-linux"],
-    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.55.tar.gz",
+    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.56.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -9456,6 +9456,15 @@
     "depends": ["atk", "fontconfig", "freetype", "fribidi", "gdk-pixbuf", "glib", "gtk3", "harfbuzz", "libandroid-glob", "libandroid-shmem", "libbz2", "libc++", "libcairo", "libffi", "libgraphite", "liblzma", "libpixman", "libpng", "libuuid", "libvte", "libx11", "libxau", "libxcb", "libxdmcp", "libxext", "libxml2", "libxrender", "pango", "pcre", "zlib"],
     "srcurl": "https://download.geany.org/geany-1.37.1.tar.bz2",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "geany-plugins",
+    "version": "1.37",
+    "description": "This is a plug-in for the editor Geany",
+    "homepage": "https://plugins.geany.org/install.html",
+    "depends": ["geany"],
+    "srcurl": "https://plugins.geany.org/geany-plugins/geany-plugins-1.37.tar.gz",
+    "maintainer": "@suhan-paradkar"
   },
   {
     "name": "gigolo",
