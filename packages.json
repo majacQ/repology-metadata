@@ -691,11 +691,11 @@
   },
   {
     "name": "binaryen",
-    "version": "100",
+    "version": "101",
     "description": "Binaryen is a compiler and toolchain infrastructure library for WebAssembly",
     "homepage": "https://github.com/WebAssembly/binaryen",
     "depends": [],
-    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_100.tar.gz",
+    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_101.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -709,11 +709,11 @@
   },
   {
     "name": "bison",
-    "version": "3.7.5",
+    "version": "3.7.6",
     "description": "General-purpose parser generator",
     "homepage": "https://www.gnu.org/software/bison/",
     "depends": ["m4"],
-    "srcurl": "https://mirrors.kernel.org/gnu/bison/bison-3.7.5.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/gnu/bison/bison-3.7.6.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1749,11 +1749,11 @@
   },
   {
     "name": "exiftool",
-    "version": "12.18",
+    "version": "12.25",
     "description": "Utility for reading, writing and editing meta information in a wide variety of files.",
     "homepage": "https://exiftool.org/",
     "depends": ["perl"],
-    "srcurl": "http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-12.18.tar.gz",
+    "srcurl": "http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-12.25.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -1794,11 +1794,11 @@
   },
   {
     "name": "fastmod",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "Regex-based code refactoring utility",
     "homepage": "https://github.com/facebookincubator/fastmod",
     "depends": [],
-    "srcurl": "https://github.com/facebookincubator/fastmod/archive/v0.4.1.tar.gz",
+    "srcurl": "https://github.com/facebookincubator/fastmod/archive/v0.4.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2772,11 +2772,11 @@
   },
   {
     "name": "hydroxide",
-    "version": "0.2.17",
+    "version": "0.2.18",
     "description": "A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge",
     "homepage": "https://github.com/emersion/hydroxide",
     "depends": [],
-    "srcurl": "https://github.com/emersion/hydroxide/archive/v0.2.17.tar.gz",
+    "srcurl": "https://github.com/emersion/hydroxide/archive/v0.2.18.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3578,11 +3578,11 @@
   },
   {
     "name": "libebml",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Extensible Binary Meta Language library",
     "homepage": "https://github.com/Matroska-Org/libebml",
     "depends": [],
-    "srcurl": "https://github.com/Matroska-Org/libebml/archive/release-1.4.1.tar.gz",
+    "srcurl": "https://github.com/Matroska-Org/libebml/archive/release-1.4.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -5799,11 +5799,11 @@
   },
   {
     "name": "oniguruma",
-    "version": "6.9.6",
+    "version": "6.9.7",
     "description": "Regular expressions library",
     "homepage": "https://github.com/kkos/oniguruma",
     "depends": [],
-    "srcurl": "https://github.com/kkos/oniguruma/releases/download/v6.9.6/onig-6.9.6.tar.gz",
+    "srcurl": "https://github.com/kkos/oniguruma/releases/download/v6.9.7/onig-6.9.7.tar.gz",
     "maintainer": "@termux"
   },
   {
