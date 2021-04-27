@@ -306,11 +306,11 @@
   },
   {
     "name": "ack-grep",
-    "version": "3.4.0",
+    "version": "3.5.0",
     "description": "Tool like grep optimized for programmers",
     "homepage": "https://beyondgrep.com/",
     "depends": ["perl"],
-    "srcurl": "https://beyondgrep.com/ack-v3.4.0",
+    "srcurl": "https://beyondgrep.com/ack-v3.5.0",
     "maintainer": "@termux"
   },
   {
@@ -1109,7 +1109,7 @@
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
     "srcurl": "https://github.com/composer/composer.git",
-    "maintainer": "@termux"
+    "maintainer": "@PuneetGopinath"
   },
   {
     "name": "coreutils",
@@ -3060,11 +3060,11 @@
   },
   {
     "name": "json-glib",
-    "version": "1.6.0",
+    "version": "1.6.2",
     "description": "GLib JSON manipulation library",
     "homepage": "https://wiki.gnome.org/Projects/JsonGlib",
     "depends": ["glib"],
-    "srcurl": "https://download.gnome.org/sources/json-glib/1.6/json-glib-1.6.0.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/json-glib/1.6/json-glib-1.6.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -3560,11 +3560,11 @@
   },
   {
     "name": "libdispatch",
-    "version": "1:5.3.3",
+    "version": "1:5.4",
     "description": "The libdispatch project, for concurrency on multicore hardware",
     "homepage": "https://github.com/apple/swift-corelibs-libdispatch",
     "depends": ["libc++", "libblocksruntime"],
-    "srcurl": "https://github.com/apple/swift-corelibs-libdispatch/archive/swift-5.3.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift-corelibs-libdispatch/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
@@ -4460,20 +4460,20 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.35.4",
+    "version": "3.35.5",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": ["zlib"],
-    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "libsqlite-tcl",
-    "version": "3.35.4",
+    "version": "3.35.5",
     "description": "tcl bindings for SQLite",
     "homepage": "https://www.sqlite.org",
     "depends": ["libsqlite", "tcl"],
-    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4640,11 +4640,11 @@
   },
   {
     "name": "libvips",
-    "version": "8.10.5",
+    "version": "8.10.6",
     "description": "A fast image processing library with low memory needs",
     "homepage": "https://libvips.github.io/libvips/",
     "depends": ["fftw", "giflib", "imagemagick", "libexif", "libexpat", "libjpeg-turbo", "libtiff", "libwebp"],
-    "srcurl": "https://github.com/libvips/libvips/releases/download/v8.10.5/vips-8.10.5.tar.gz",
+    "srcurl": "https://github.com/libvips/libvips/releases/download/v8.10.6/vips-8.10.6.tar.gz",
     "maintainer": "Thibault Meyer <meyer.thibault@gmail.com>"
   },
   {
@@ -4919,11 +4919,11 @@
   },
   {
     "name": "llbuild",
-    "version": "5.3",
+    "version": "5.4",
     "description": "A low-level build system, used by the Swift Package Manager",
     "homepage": "https://github.com/apple/swift-llbuild",
     "depends": ["libc++", "libandroid-spawn", "libsqlite"],
-    "srcurl": "https://github.com/apple/swift-llbuild/archive/swift-5.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift-llbuild/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
@@ -5601,11 +5601,11 @@
   },
   {
     "name": "netpbm",
-    "version": "1:10.73.34",
+    "version": "1:10.73.35",
     "description": "Toolkit for manipulation of graphic images of different formats",
     "homepage": "http://netpbm.sourceforge.net/",
     "depends": ["libpng", "libxml2", "libjpeg-turbo", "libtiff", "zlib"],
-    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.34/netpbm-10.73.34.tgz",
+    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.35/netpbm-10.73.35.tgz",
     "maintainer": "@termux"
   },
   {
@@ -7164,11 +7164,11 @@
   },
   {
     "name": "swift",
-    "version": "5.3.3",
+    "version": "5.4",
     "description": "Swift is a high-performance system programming language",
     "homepage": "https://swift.org/",
     "depends": ["binutils-gold", "clang", "libc++", "ndk-sysroot", "libandroid-glob", "libandroid-spawn", "libcurl", "libicu", "libicu-static", "libsqlite", "libuuid", "libxml2", "libdispatch", "llbuild"],
-    "srcurl": "https://github.com/apple/swift/archive/swift-5.3.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
