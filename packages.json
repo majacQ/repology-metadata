@@ -781,11 +781,11 @@
   },
   {
     "name": "borgbackup",
-    "version": "1.1.15",
+    "version": "1.1.16",
     "description": "Deduplicating and compressing backup program",
     "homepage": "https://www.borgbackup.org/",
     "depends": ["libacl", "liblz4", "openssl", "python", "zstd"],
-    "srcurl": "https://github.com/borgbackup/borg/releases/download/1.1.15/borgbackup-1.1.15.tar.gz",
+    "srcurl": "https://github.com/borgbackup/borg/releases/download/1.1.16/borgbackup-1.1.16.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -897,11 +897,11 @@
   },
   {
     "name": "calcurse",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "calcurse is a calendar and scheduling application for the command line",
     "homepage": "https://calcurse.org/",
     "depends": ["libandroid-support", "ncurses"],
-    "srcurl": "https://calcurse.org/files/calcurse-4.7.0.tar.gz",
+    "srcurl": "https://calcurse.org/files/calcurse-4.7.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -933,11 +933,11 @@
   },
   {
     "name": "ccache",
-    "version": "4.2",
+    "version": "4.2.1",
     "description": "Compiler cache for fast recompilation of C/C++ code",
     "homepage": "https://ccache.samba.org",
     "depends": ["zlib", "zstd"],
-    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.2/ccache-4.2.tar.xz",
+    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.2.1/ccache-4.2.1.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1104,7 +1104,7 @@
   },
   {
     "name": "composer",
-    "version": "2.0.12",
+    "version": "2.0.13",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
@@ -2108,11 +2108,11 @@
   },
   {
     "name": "gegl",
-    "version": "0.4.28",
+    "version": "0.4.30",
     "description": "Data flow based image processing framework",
     "homepage": "https://gegl.org/",
     "depends": ["libandroid-support", "libc++", "ffmpeg", "babl", "json-glib", "libjpeg-turbo", "libpng", "libjasper", "littlecms", "libtiff", "librsvg", "zlib"],
-    "srcurl": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.28.tar.xz",
+    "srcurl": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.30.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -2360,11 +2360,11 @@
   },
   {
     "name": "goaccess",
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "An open source real-time web log analyzer and interactive viewer",
     "homepage": "http://goaccess.io",
     "depends": ["ncurses", "openssl"],
-    "srcurl": "https://tar.goaccess.io/goaccess-1.4.5.tar.gz",
+    "srcurl": "https://tar.goaccess.io/goaccess-1.4.6.tar.gz",
     "maintainer": "@termux"
   },
   {
