@@ -476,7 +476,7 @@
   },
   {
     "name": "asciidoctor",
-    "version": "2.0.12",
+    "version": "2.0.15",
     "description": "An implementation of AsciiDoc in Ruby",
     "homepage": "https://asciidoctor.org/",
     "depends": ["ruby"],
@@ -1524,11 +1524,11 @@
   },
   {
     "name": "dpkg",
-    "version": "1.20.7.1",
+    "version": "1.20.9",
     "description": "Debian package management system",
     "homepage": "https://packages.debian.org/dpkg",
     "depends": ["bzip2", "coreutils", "diffutils", "gzip", "less", "libbz2", "liblzma", "tar", "xz-utils", "zlib"],
-    "srcurl": "https://mirrors.kernel.org/debian/pool/main/d/dpkg/dpkg_1.20.7.1.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/debian/pool/main/d/dpkg/dpkg_1.20.9.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1659,11 +1659,11 @@
   },
   {
     "name": "elixir",
-    "version": "1.11.3",
+    "version": "1.11.4",
     "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
     "homepage": "https://elixir-lang.org/",
     "depends": ["dash", "erlang"],
-    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.11.3/Precompiled.zip",
+    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.11.4/Precompiled.zip",
     "maintainer": "@termux"
   },
   {
@@ -1875,11 +1875,11 @@
   },
   {
     "name": "findomain",
-    "version": "3.0.1",
+    "version": "4.0.1",
     "description": "Findomain is the fastest subdomain enumerator and the only one written in Rust",
     "homepage": "https://findomain.app/",
     "depends": [],
-    "srcurl": "https://github.com/Findomain/Findomain/archive/3.0.1.tar.gz",
+    "srcurl": "https://github.com/Findomain/Findomain/archive/4.0.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1893,11 +1893,11 @@
   },
   {
     "name": "fish",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "Shell geared towards interactive use",
     "homepage": "https://fishshell.com/",
     "depends": ["libc++", "ncurses", "libandroid-support", "ncurses-utils", "man", "bc", "pcre2", "libandroid-spawn"],
-    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.1/fish-3.2.1.tar.xz",
+    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.2/fish-3.2.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -2315,7 +2315,7 @@
   },
   {
     "name": "gnunet",
-    "version": "0.14.0",
+    "version": "0.14.1",
     "description": "A framework for secure peer-to-peer networking",
     "homepage": "http://gnunet.org",
     "depends": ["gnurl", "libgcrypt", "libgmp", "libidn", "libjansson", "libltdl", "libmicrohttpd", "libsqlite", "libunistring", "libsodium"],
