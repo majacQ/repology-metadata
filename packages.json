@@ -306,11 +306,11 @@
   },
   {
     "name": "ack-grep",
-    "version": "3.4.0",
+    "version": "3.5.0",
     "description": "Tool like grep optimized for programmers",
     "homepage": "https://beyondgrep.com/",
     "depends": ["perl"],
-    "srcurl": "https://beyondgrep.com/ack-v3.4.0",
+    "srcurl": "https://beyondgrep.com/ack-v3.5.0",
     "maintainer": "@termux"
   },
   {
@@ -422,11 +422,11 @@
   },
   {
     "name": "apt",
-    "version": "2.2.2",
+    "version": "2.3.2",
     "description": "Front-end for the dpkg package manager",
     "homepage": "https://packages.debian.org/apt",
     "depends": ["coreutils", "dpkg", "findutils", "gpgv", "grep", "libandroid-glob", "libbz2", "libc++", "libcurl", "libgnutls", "liblz4", "liblzma", "sed", "termux-licenses", "xxhash", "zlib"],
-    "srcurl": "http://deb.debian.org/debian/pool/main/a/apt/apt_2.2.2.tar.xz",
+    "srcurl": "http://deb.debian.org/debian/pool/main/a/apt/apt_2.3.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -476,7 +476,7 @@
   },
   {
     "name": "asciidoctor",
-    "version": "2.0.12",
+    "version": "2.0.15",
     "description": "An implementation of AsciiDoc in Ruby",
     "homepage": "https://asciidoctor.org/",
     "depends": ["ruby"],
@@ -691,11 +691,11 @@
   },
   {
     "name": "binaryen",
-    "version": "100",
+    "version": "101",
     "description": "Binaryen is a compiler and toolchain infrastructure library for WebAssembly",
     "homepage": "https://github.com/WebAssembly/binaryen",
     "depends": [],
-    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_100.tar.gz",
+    "srcurl": "https://github.com/WebAssembly/binaryen/archive/version_101.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -709,11 +709,11 @@
   },
   {
     "name": "bison",
-    "version": "3.7.5",
+    "version": "3.7.6",
     "description": "General-purpose parser generator",
     "homepage": "https://www.gnu.org/software/bison/",
     "depends": ["m4"],
-    "srcurl": "https://mirrors.kernel.org/gnu/bison/bison-3.7.5.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/gnu/bison/bison-3.7.6.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -781,11 +781,11 @@
   },
   {
     "name": "borgbackup",
-    "version": "1.1.15",
+    "version": "1.1.16",
     "description": "Deduplicating and compressing backup program",
     "homepage": "https://www.borgbackup.org/",
     "depends": ["libacl", "liblz4", "openssl", "python", "zstd"],
-    "srcurl": "https://github.com/borgbackup/borg/releases/download/1.1.15/borgbackup-1.1.15.tar.gz",
+    "srcurl": "https://github.com/borgbackup/borg/releases/download/1.1.16/borgbackup-1.1.16.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -897,11 +897,11 @@
   },
   {
     "name": "calcurse",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "description": "calcurse is a calendar and scheduling application for the command line",
     "homepage": "https://calcurse.org/",
     "depends": ["libandroid-support", "ncurses"],
-    "srcurl": "https://calcurse.org/files/calcurse-4.7.0.tar.gz",
+    "srcurl": "https://calcurse.org/files/calcurse-4.7.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -933,11 +933,11 @@
   },
   {
     "name": "ccache",
-    "version": "4.2",
+    "version": "4.2.1",
     "description": "Compiler cache for fast recompilation of C/C++ code",
     "homepage": "https://ccache.samba.org",
     "depends": ["zlib", "zstd"],
-    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.2/ccache-4.2.tar.xz",
+    "srcurl": "https://github.com/ccache/ccache/releases/download/v4.2.1/ccache-4.2.1.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1104,12 +1104,12 @@
   },
   {
     "name": "composer",
-    "version": "2.0.12",
+    "version": "2.0.13",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
     "srcurl": "https://github.com/composer/composer.git",
-    "maintainer": "@termux"
+    "maintainer": "@PuneetGopinath"
   },
   {
     "name": "coreutils",
@@ -1524,11 +1524,11 @@
   },
   {
     "name": "dpkg",
-    "version": "1.20.7.1",
+    "version": "1.20.9",
     "description": "Debian package management system",
     "homepage": "https://packages.debian.org/dpkg",
     "depends": ["bzip2", "coreutils", "diffutils", "gzip", "less", "libbz2", "liblzma", "tar", "xz-utils", "zlib"],
-    "srcurl": "https://mirrors.kernel.org/debian/pool/main/d/dpkg/dpkg_1.20.7.1.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/debian/pool/main/d/dpkg/dpkg_1.20.9.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1659,11 +1659,11 @@
   },
   {
     "name": "elixir",
-    "version": "1.11.3",
+    "version": "1.11.4",
     "description": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications",
     "homepage": "https://elixir-lang.org/",
     "depends": ["dash", "erlang"],
-    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.11.3/Precompiled.zip",
+    "srcurl": "https://github.com/elixir-lang/elixir/releases/download/v1.11.4/Precompiled.zip",
     "maintainer": "@termux"
   },
   {
@@ -1683,6 +1683,15 @@
     "depends": ["ncurses", "gnutls", "libxml2"],
     "srcurl": "https://ftp.gnu.org/gnu/emacs/emacs-27.2.tar.xz",
     "maintainer": "@termux"
+  },
+  {
+    "name": "emscripten",
+    "version": "2.0.17",
+    "description": "Emscripten: An LLVM-to-WebAssembly Compiler",
+    "homepage": "https://emscripten.org",
+    "depends": ["python", "nodejs"],
+    "srcurl": "https://github.com/emscripten-core/emscripten.git",
+    "maintainer": "@truboxl"
   },
   {
     "name": "enchant",
@@ -1740,11 +1749,11 @@
   },
   {
     "name": "exiftool",
-    "version": "12.18",
+    "version": "12.25",
     "description": "Utility for reading, writing and editing meta information in a wide variety of files.",
     "homepage": "https://exiftool.org/",
     "depends": ["perl"],
-    "srcurl": "http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-12.18.tar.gz",
+    "srcurl": "http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-12.25.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
@@ -1785,11 +1794,11 @@
   },
   {
     "name": "fastmod",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "Regex-based code refactoring utility",
     "homepage": "https://github.com/facebookincubator/fastmod",
     "depends": [],
-    "srcurl": "https://github.com/facebookincubator/fastmod/archive/v0.4.1.tar.gz",
+    "srcurl": "https://github.com/facebookincubator/fastmod/archive/v0.4.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1866,11 +1875,11 @@
   },
   {
     "name": "findomain",
-    "version": "3.0.1",
+    "version": "4.0.1",
     "description": "Findomain is the fastest subdomain enumerator and the only one written in Rust",
     "homepage": "https://findomain.app/",
     "depends": [],
-    "srcurl": "https://github.com/Findomain/Findomain/archive/3.0.1.tar.gz",
+    "srcurl": "https://github.com/Findomain/Findomain/archive/4.0.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -1884,11 +1893,11 @@
   },
   {
     "name": "fish",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "Shell geared towards interactive use",
     "homepage": "https://fishshell.com/",
     "depends": ["libc++", "ncurses", "libandroid-support", "ncurses-utils", "man", "bc", "pcre2", "libandroid-spawn"],
-    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.1/fish-3.2.1.tar.xz",
+    "srcurl": "https://github.com/fish-shell/fish-shell/releases/download/3.2.2/fish-3.2.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -2099,11 +2108,11 @@
   },
   {
     "name": "gegl",
-    "version": "0.4.28",
+    "version": "0.4.30",
     "description": "Data flow based image processing framework",
     "homepage": "https://gegl.org/",
     "depends": ["libandroid-support", "libc++", "ffmpeg", "babl", "json-glib", "libjpeg-turbo", "libpng", "libjasper", "littlecms", "libtiff", "librsvg", "zlib"],
-    "srcurl": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.28.tar.xz",
+    "srcurl": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.30.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -2306,7 +2315,7 @@
   },
   {
     "name": "gnunet",
-    "version": "0.14.0",
+    "version": "0.14.1",
     "description": "A framework for secure peer-to-peer networking",
     "homepage": "http://gnunet.org",
     "depends": ["gnurl", "libgcrypt", "libgmp", "libidn", "libjansson", "libltdl", "libmicrohttpd", "libsqlite", "libunistring", "libsodium"],
@@ -2351,11 +2360,11 @@
   },
   {
     "name": "goaccess",
-    "version": "1.4.5",
+    "version": "1.4.6",
     "description": "An open source real-time web log analyzer and interactive viewer",
     "homepage": "http://goaccess.io",
     "depends": ["ncurses", "openssl"],
-    "srcurl": "https://tar.goaccess.io/goaccess-1.4.5.tar.gz",
+    "srcurl": "https://tar.goaccess.io/goaccess-1.4.6.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2486,47 +2495,47 @@
   },
   {
     "name": "gst-plugins-bad",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Bad Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libbz2", "libcurl", "libiconv", "libpng", "librsvg", "libssh2", "libsndfile", "libx264", "libx265", "littlecms", "openal-soft", "openjpeg"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-base",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer base plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gstreamer", "libandroid-shmem", "libjpeg-turbo", "libopus", "libpng", "libvorbis", "zlib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-good",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Good Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libandroid-shmem", "libcaca", "libsoup", "libjpeg-turbo", "libpng", "libflac", "libbz2", "libvpx", "pulseaudio", "libmp3lame", "gstreamer", "libogg", "zlib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gst-plugins-ugly",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "GStreamer Ugly Plug-ins",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["gst-plugins-base", "libx264"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
     "name": "gstreamer",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "description": "Open source multimedia framework",
     "homepage": "https://gstreamer.freedesktop.org/",
     "depends": ["glib"],
-    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.3.tar.xz",
+    "srcurl": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.4.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -2763,11 +2772,11 @@
   },
   {
     "name": "hydroxide",
-    "version": "0.2.17",
+    "version": "0.2.18",
     "description": "A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge",
     "homepage": "https://github.com/emersion/hydroxide",
     "depends": [],
-    "srcurl": "https://github.com/emersion/hydroxide/archive/v0.2.17.tar.gz",
+    "srcurl": "https://github.com/emersion/hydroxide/archive/v0.2.18.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2970,11 +2979,11 @@
   },
   {
     "name": "jftui",
-    "version": "0.4.0",
+    "version": "0.5.1",
     "description": "jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server.",
     "homepage": "https://github.com/Aanok/jftui",
     "depends": ["libcurl", "yajl", "mpv"],
-    "srcurl": "https://github.com/Aanok/jftui/archive/v0.4.0.tar.gz",
+    "srcurl": "https://github.com/Aanok/jftui/archive/v0.5.1.tar.gz",
     "maintainer": "Maxr1998 <max.rumpf1998@gmail.com>"
   },
   {
@@ -3051,11 +3060,11 @@
   },
   {
     "name": "json-glib",
-    "version": "1.6.0",
+    "version": "1.6.2",
     "description": "GLib JSON manipulation library",
     "homepage": "https://wiki.gnome.org/Projects/JsonGlib",
     "depends": ["glib"],
-    "srcurl": "https://download.gnome.org/sources/json-glib/1.6/json-glib-1.6.0.tar.xz",
+    "srcurl": "https://download.gnome.org/sources/json-glib/1.6/json-glib-1.6.2.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -3213,11 +3222,11 @@
   },
   {
     "name": "ldc",
-    "version": "1.25.1",
+    "version": "1.26.0",
     "description": "D programming language compiler, built with LLVM",
     "homepage": "https://github.com/ldc-developers/ldc",
     "depends": ["clang", "libc++", "zlib"],
-    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.25.1/ldc-1.25.1-src.tar.gz",
+    "srcurl": "https://github.com/ldc-developers/ldc/releases/download/v1.26.0/ldc-1.26.0-src.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3551,11 +3560,11 @@
   },
   {
     "name": "libdispatch",
-    "version": "1:5.3.3",
+    "version": "1:5.4",
     "description": "The libdispatch project, for concurrency on multicore hardware",
     "homepage": "https://github.com/apple/swift-corelibs-libdispatch",
     "depends": ["libc++", "libblocksruntime"],
-    "srcurl": "https://github.com/apple/swift-corelibs-libdispatch/archive/swift-5.3.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift-corelibs-libdispatch/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
@@ -3569,11 +3578,11 @@
   },
   {
     "name": "libebml",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Extensible Binary Meta Language library",
     "homepage": "https://github.com/Matroska-Org/libebml",
     "depends": [],
-    "srcurl": "https://github.com/Matroska-Org/libebml/archive/release-1.4.1.tar.gz",
+    "srcurl": "https://github.com/Matroska-Org/libebml/archive/release-1.4.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4451,20 +4460,20 @@
   },
   {
     "name": "libsqlite",
-    "version": "3.35.4",
+    "version": "3.35.5",
     "description": "Library implementing a self-contained and transactional SQL database engine",
     "homepage": "https://www.sqlite.org",
     "depends": ["zlib"],
-    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
     "maintainer": "@termux"
   },
   {
     "name": "libsqlite-tcl",
-    "version": "3.35.4",
+    "version": "3.35.5",
     "description": "tcl bindings for SQLite",
     "homepage": "https://www.sqlite.org",
     "depends": ["libsqlite", "tcl"],
-    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350400.tar.gz",
+    "srcurl": "https://www.sqlite.org/2021/sqlite-autoconf-3350500.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -4631,11 +4640,11 @@
   },
   {
     "name": "libvips",
-    "version": "8.10.5",
+    "version": "8.10.6",
     "description": "A fast image processing library with low memory needs",
     "homepage": "https://libvips.github.io/libvips/",
     "depends": ["fftw", "giflib", "imagemagick", "libexif", "libexpat", "libjpeg-turbo", "libtiff", "libwebp"],
-    "srcurl": "https://github.com/libvips/libvips/releases/download/v8.10.5/vips-8.10.5.tar.gz",
+    "srcurl": "https://github.com/libvips/libvips/releases/download/v8.10.6/vips-8.10.6.tar.gz",
     "maintainer": "Thibault Meyer <meyer.thibault@gmail.com>"
   },
   {
@@ -4910,11 +4919,11 @@
   },
   {
     "name": "llbuild",
-    "version": "5.3",
+    "version": "5.4",
     "description": "A low-level build system, used by the Swift Package Manager",
     "homepage": "https://github.com/apple/swift-llbuild",
     "depends": ["libc++", "libandroid-spawn", "libsqlite"],
-    "srcurl": "https://github.com/apple/swift-llbuild/archive/swift-5.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift-llbuild/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
@@ -5592,11 +5601,11 @@
   },
   {
     "name": "netpbm",
-    "version": "1:10.73.34",
+    "version": "1:10.73.35",
     "description": "Toolkit for manipulation of graphic images of different formats",
     "homepage": "http://netpbm.sourceforge.net/",
     "depends": ["libpng", "libxml2", "libjpeg-turbo", "libtiff", "zlib"],
-    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.34/netpbm-10.73.34.tgz",
+    "srcurl": "https://downloads.sourceforge.net/project/netpbm/super_stable/10.73.35/netpbm-10.73.35.tgz",
     "maintainer": "@termux"
   },
   {
@@ -5790,11 +5799,11 @@
   },
   {
     "name": "oniguruma",
-    "version": "6.9.6",
+    "version": "6.9.7",
     "description": "Regular expressions library",
     "homepage": "https://github.com/kkos/oniguruma",
     "depends": [],
-    "srcurl": "https://github.com/kkos/oniguruma/releases/download/v6.9.6/onig-6.9.6.tar.gz",
+    "srcurl": "https://github.com/kkos/oniguruma/releases/download/v6.9.7/onig-6.9.7.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -6447,11 +6456,11 @@
   },
   {
     "name": "rclone",
-    "version": "1.55.0",
+    "version": "1.55.1",
     "description": "rsync for cloud storage",
     "homepage": "https://rclone.org/",
     "depends": [],
-    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.55.0/rclone-v1.55.0.tar.gz",
+    "srcurl": "https://github.com/rclone/rclone/releases/download/v1.55.1/rclone-v1.55.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -7155,11 +7164,11 @@
   },
   {
     "name": "swift",
-    "version": "5.3.3",
+    "version": "5.4",
     "description": "Swift is a high-performance system programming language",
     "homepage": "https://swift.org/",
     "depends": ["binutils-gold", "clang", "libc++", "ndk-sysroot", "libandroid-glob", "libandroid-spawn", "libcurl", "libicu", "libicu-static", "libsqlite", "libuuid", "libxml2", "libdispatch", "llbuild"],
-    "srcurl": "https://github.com/apple/swift/archive/swift-5.3.3-RELEASE.tar.gz",
+    "srcurl": "https://github.com/apple/swift/archive/swift-5.4-RELEASE.tar.gz",
     "maintainer": "@buttaface"
   },
   {
@@ -7298,11 +7307,11 @@
   },
   {
     "name": "termux-api",
-    "version": "0.55",
+    "version": "0.56",
     "description": "Termux API commands (install also the Termux:API app)",
     "homepage": "https://wiki.termux.com/wiki/Termux:API",
     "depends": ["bash", "util-linux"],
-    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.55.tar.gz",
+    "srcurl": "https://github.com/termux/termux-api-package/archive/v0.56.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -9449,6 +9458,24 @@
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
+    "name": "geany-plugins",
+    "version": "1.37",
+    "description": "This is a plug-in for the editor Geany",
+    "homepage": "https://plugins.geany.org/install.html",
+    "depends": ["geany"],
+    "srcurl": "https://plugins.geany.org/geany-plugins/geany-plugins-1.37.tar.gz",
+    "maintainer": "@suhan-paradkar"
+  },
+  {
+    "name": "gigolo",
+    "version": "0.5.2",
+    "description": "Gigolo is a frontend to easily manage connections to local and remote filesystems using GIO/GVfs.",
+    "homepage": "https://docs.xfce.org/apps/gigolo/start",
+    "depends": ["gtk3"],
+    "srcurl": "https://archive.xfce.org/src/apps/gigolo/0.5/gigolo-0.5.2.tar.bz2",
+    "maintainer": "@termux"
+  },
+  {
     "name": "glew",
     "version": "2.2.0",
     "description": "The OpenGL Extension Wrangler Library",
@@ -10148,6 +10175,15 @@
     "depends": ["libandroid-shmem", "libsm", "libtheora", "libvorbis", "libxdamage", "libxext", "zlib"],
     "srcurl": "https://downloads.sourceforge.net/recordmydesktop/recordmydesktop-0.3.8.1.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "ristretto",
+    "version": "0.10.0",
+    "description": "The Ristretto Image Viewer is an application that can be used to view, and scroll through images.",
+    "homepage": "https://docs.xfce.org/apps/ristretto/start",
+    "depends": ["gtk3", "libexif", "libxfce4util", "libxfce4ui"],
+    "srcurl": "https://archive.xfce.org/src/apps/ristretto/0.10/ristretto-0.10.0.tar.bz2",
+    "maintainer": "@termux"
   },
   {
     "name": "rofi",
