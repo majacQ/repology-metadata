@@ -3893,11 +3893,11 @@
   },
   {
     "name": "libllvm",
-    "version": "11.1.0",
+    "version": "12.0.0",
     "description": "Modular compiler and toolchain technologies library",
     "homepage": "https://clang.llvm.org/",
     "depends": ["binutils", "libc++", "ncurses", "ndk-sysroot", "libffi", "zlib"],
-    "srcurl": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-project-11.1.0.src.tar.xz",
+    "srcurl": "https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/llvm-project-12.0.0.src.tar.xz",
     "maintainer": "@buttaface"
   },
   {
