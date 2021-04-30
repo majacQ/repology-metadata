@@ -7386,7 +7386,7 @@
   },
   {
     "name": "termux-tools",
-    "version": "0.118",
+    "version": "0.119",
     "description": "Basic system tools for Termux",
     "homepage": "https://termux.com/",
     "depends": ["bzip2", "coreutils", "curl", "dash", "diffutils", "findutils", "gawk", "grep", "gzip", "less", "procps", "psmisc", "sed", "tar", "termux-am", "termux-exec", "util-linux", "xz-utils", "dialog"],
@@ -7727,7 +7727,7 @@
   },
   {
     "name": "unstable-repo",
-    "version": "6.0",
+    "version": "7.0",
     "description": "Package repository containing new/unstable programs and libraries.",
     "homepage": "https://github.com/termux/unstable-packages",
     "depends": ["termux-keyring"],
@@ -8023,7 +8023,7 @@
   },
   {
     "name": "x11-repo",
-    "version": "6.0",
+    "version": "7.0",
     "description": "Package repository containing X11 programs and libraries",
     "homepage": "https://github.com/termux/x11-packages",
     "depends": ["termux-keyring"],
