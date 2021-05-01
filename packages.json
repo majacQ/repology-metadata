@@ -6528,11 +6528,11 @@
   },
   {
     "name": "redis",
-    "version": "6.0.10",
+    "version": "6.2.2",
     "description": "In-memory data structure store used as a database, cache and message broker",
     "homepage": "https://redis.io/",
     "depends": [],
-    "srcurl": "http://download.redis.io/releases/redis-6.0.10.tar.gz",
+    "srcurl": "http://download.redis.io/releases/redis-6.2.2.tar.gz",
     "maintainer": "@termux"
   },
   {
