@@ -1032,11 +1032,11 @@
   },
   {
     "name": "cmake",
-    "version": "3.19.6",
+    "version": "3.20.2",
     "description": "Family of tools designed to build, test and package software",
     "homepage": "https://cmake.org/",
     "depends": ["libarchive", "libc++", "libcurl", "libexpat", "jsoncpp", "libuv", "rhash", "make", "clang", "zlib"],
-    "srcurl": "https://www.cmake.org/files/v3.19/cmake-3.19.6.tar.gz",
+    "srcurl": "https://www.cmake.org/files/v3.20/cmake-3.20.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2405,11 +2405,11 @@
   },
   {
     "name": "gopass",
-    "version": "1.12.5",
+    "version": "1.12.6",
     "description": "The slightly more awesome standard unix password manager for teams.",
     "homepage": "https://github.com/gopasspw/gopass",
     "depends": ["git", "gnupg"],
-    "srcurl": "https://github.com/gopasspw/gopass/archive/v1.12.5.tar.gz",
+    "srcurl": "https://github.com/gopasspw/gopass/archive/v1.12.6.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
   {
