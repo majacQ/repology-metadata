@@ -1140,7 +1140,7 @@
   },
   {
     "name": "composer",
-    "version": "2.1.4",
+    "version": "2.1.5",
     "description": "Dependency Manager for PHP",
     "homepage": "https://getcomposer.org/",
     "depends": ["php"],
@@ -2312,6 +2312,15 @@
     "depends": [],
     "srcurl": "https://github.com/git-lfs/git-lfs/archive/v2.13.3.tar.gz",
     "maintainer": "@termux"
+  },
+  {
+    "name": "git-sizer",
+    "version": "1.4.0",
+    "description": "Compute various size metrics for a Git repository",
+    "homepage": "https://github.com/github/git-sizer",
+    "depends": ["git"],
+    "srcurl": "https://github.com/github/git-sizer/archive/v1.4.0.tar.gz",
+    "maintainer": "Yaksh Bariya <yakshbari4@gmail.com>"
   },
   {
     "name": "gitea",
@@ -3877,7 +3886,7 @@
     "version": "3.0.10",
     "description": "Libical is an Open Source implementation of the iCalendar protocols and protocol data units",
     "homepage": "http://libical.github.io/libical/",
-    "depends": ["libc++", "libxml2"],
+    "depends": ["libc++", "libicu", "libxml2"],
     "srcurl": "https://github.com/libical/libical/releases/download/v3.0.10/libical-3.0.10.tar.gz",
     "maintainer": "@termux"
   },
@@ -8165,6 +8174,32 @@
     "maintainer": "@termux"
   },
   {
+    "name": "vulkan-headers",
+    "version": "1.2.184",
+    "description": "Vulkan Header files and API registry",
+    "homepage": "https://github.com/KhronosGroup/Vulkan-Headers",
+    "depends": [],
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.2.184.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "vulkan-loader-android",
+    "version": "21d",
+    "description": "Vulkan Loader for Android",
+    "homepage": "https://source.android.com/devices/graphics/arch-vulkan",
+    "depends": [],
+    "maintainer": "@termux"
+  },
+  {
+    "name": "vulkan-tools",
+    "version": "1.2.184",
+    "description": "Vulkan Tools and Utilities",
+    "homepage": "https://github.com/KhronosGroup/Vulkan-Tools",
+    "depends": ["vulkan-headers", "vulkan-loader-android"],
+    "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/v1.2.184.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "w3m",
     "version": "0.5.3.20190105",
     "description": "Text based Web browser and pager",
@@ -9429,15 +9464,6 @@
     "depends": [],
     "srcurl": "https://github.com/restic/rest-server/archive/v0.10.0.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
-  },
-  {
-    "name": "rustc-nightly",
-    "version": "1.52.0",
-    "description": "Rust compiler and utilities (nightly version)",
-    "homepage": "https://www.rust-lang.org",
-    "depends": ["libc++", "clang", "openssl", "lld", "zlib", "libllvm"],
-    "srcurl": "https://static.rust-lang.org/dist/2021-02-24/rustc-nightly-src.tar.xz",
-    "maintainer": "@its-pointless"
   },
   {
     "name": "samba",
@@ -10962,7 +10988,7 @@
     "version": "1:5.2.0",
     "description": "A generic and open source machine emulator and virtualizer",
     "homepage": "https://www.qemu.org",
-    "depends": ["attr", "glib", "libbz2", "libc++", "libcap-ng", "libcurl", "libgcrypt", "libiconv", "libjpeg-turbo", "liblzo", "libnfs", "libpixman", "libpng", "libssh", "libx11", "ncurses", "qemu-common", "resolv-conf", "sdl2", "sdl2-image", "zlib"],
+    "depends": ["attr", "glib", "libbz2", "libc++", "libcap-ng", "libcurl", "libgcrypt", "libiconv", "libjpeg-turbo", "liblzo", "libnfs", "libpixman", "libpng", "libssh", "libx11", "ncurses", "qemu-common", "resolv-conf", "sdl2", "sdl2-image", "zlib", "libspice-server", "libusbredir"],
     "srcurl": "https://download.qemu.org/qemu-5.2.0.tar.xz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
   },
@@ -11376,7 +11402,7 @@
     "version": "2.31.1",
     "description": "A full-featured port of the WebKit rendering engine",
     "homepage": "https://webkitgtk.org",
-    "depends": ["libtasn1", "libxt", "libnotify", "libcairo", "libgcrypt", "gtk3", "libsoup", "libwebp", "libxslt", "woff2", "enchant", "libhyphen", "openjpeg", "gst-plugins-base", "gstreamer"],
+    "depends": ["enchant", "gst-plugins-base", "gstreamer", "gtk3", "libcairo", "libgcrypt", "libhyphen", "libicu", "libnotify", "libsoup", "libtasn1", "libwebp", "libxslt", "libxt", "openjpeg", "woff2"],
     "srcurl": "https://webkitgtk.org/releases/webkitgtk-2.31.1.tar.xz",
     "maintainer": "@termux"
   },
