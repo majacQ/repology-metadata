@@ -8435,11 +8435,11 @@
   },
   {
     "name": "z3",
-    "version": "4.8.12",
+    "version": "4.8.9",
     "description": "Z3 is a theorem prover from Microsoft Research.",
     "homepage": "https://github.com/Z3Prover/z3",
     "depends": [],
-    "srcurl": "https://github.com/Z3Prover/z3/archive/z3-4.8.12.tar.gz",
+    "srcurl": "https://github.com/Z3Prover/z3/archive/z3-4.8.9.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -11163,6 +11163,15 @@
     "depends": ["libandroid-glob", "libandroid-shmem", "libcairo", "librsvg", "libxkbcommon", "startup-notification", "xcb-util-wm", "xcb-util-xrm"],
     "srcurl": "https://github.com/DaveDavenport/rofi/releases/download/1.6.1/rofi-1.6.1.tar.xz",
     "maintainer": "Tristan Ross <spaceboyross@yandex.com>"
+  },
+  {
+    "name": "roxterm",
+    "version": "3.11.1",
+    "description": "ROXTerm is a terminal emulator based on the VTE library",
+    "homepage": "https://github.com/realh/roxterm",
+    "depends": ["gtk3", "libvte", "xsltproc", "pcre2", "dbus-glib"],
+    "srcurl": "https://github.com/realh/roxterm/archive/refs/tags/3.11.1.tar.gz",
+    "maintainer": "Yisus7u7"
   },
   {
     "name": "sdl",
