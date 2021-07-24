@@ -11399,11 +11399,11 @@
   },
   {
     "name": "webkit2gtk",
-    "version": "2.31.1",
+    "version": "2.32.3",
     "description": "A full-featured port of the WebKit rendering engine",
     "homepage": "https://webkitgtk.org",
     "depends": ["enchant", "gst-plugins-base", "gstreamer", "gtk3", "libcairo", "libgcrypt", "libhyphen", "libicu", "libnotify", "libsoup", "libtasn1", "libwebp", "libxslt", "libxt", "openjpeg", "woff2"],
-    "srcurl": "https://webkitgtk.org/releases/webkitgtk-2.31.1.tar.xz",
+    "srcurl": "https://webkitgtk.org/releases/webkitgtk-2.32.3.tar.xz",
     "maintainer": "@termux"
   },
   {
