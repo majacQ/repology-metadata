@@ -2522,11 +2522,11 @@
   },
   {
     "name": "gping",
-    "version": "1.2.1",
+    "version": "1.2.3",
     "description": "Ping, but with a graph",
     "homepage": "https://github.com/orf/gping",
     "depends": [],
-    "srcurl": "https://github.com/orf/gping/archive/v1.2.1.tar.gz",
+    "srcurl": "https://github.com/orf/gping/archive/refs/tags/gping-v1.2.3.zip",
     "maintainer": "Krishna kanhaiya @kcubeterm"
   },
   {
@@ -5951,11 +5951,11 @@
   },
   {
     "name": "o-editor",
-    "version": "2.39.2",
+    "version": "2.40.1",
     "description": "Small, fast and limited text editor",
     "homepage": "https://github.com/xyproto/o",
     "depends": [],
-    "srcurl": "https://github.com/xyproto/o/archive/2.39.2.tar.gz",
+    "srcurl": "https://github.com/xyproto/o/archive/2.40.1.tar.gz",
     "maintainer": "Alexander F. Rødseth <xyproto@archlinux.org>"
   },
   {
