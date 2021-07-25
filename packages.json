@@ -457,6 +457,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "argon2",
+    "version": "20190702",
+    "description": "A password-hashing function (reference C implementation)",
+    "homepage": "https://github.com/P-H-C/phc-winner-argon2",
+    "depends": [],
+    "srcurl": "https://github.com/P-H-C/phc-winner-argon2/archive/20190702/argon2-20190702.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "argp",
     "version": "1.3",
     "description": "Standalone version of arguments parsing functions from GLIBC",
@@ -6823,11 +6832,11 @@
   },
   {
     "name": "rhash",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Console utility for calculation and verification of magnet links and a wide range of hash sums",
     "homepage": "https://github.com/rhash/RHash",
     "depends": ["openssl"],
-    "srcurl": "https://github.com/rhash/RHash/archive/v1.4.1.tar.gz",
+    "srcurl": "https://github.com/rhash/RHash/archive/v1.4.2.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -8195,7 +8204,7 @@
     "version": "1.2.184",
     "description": "Vulkan Tools and Utilities",
     "homepage": "https://github.com/KhronosGroup/Vulkan-Tools",
-    "depends": ["vulkan-headers", "vulkan-loader-android"],
+    "depends": ["libc++"],
     "srcurl": "https://github.com/KhronosGroup/Vulkan-Tools/archive/v1.2.184.tar.gz",
     "maintainer": "@termux"
   },
@@ -10011,6 +10020,15 @@
     "depends": ["qt5-qtbase", "shared-mime-info"],
     "srcurl": "http://download.kde.org/stable/frameworks/5.71/kcoreaddons-5.71.0.tar.xz",
     "maintainer": "Simeon Huang <symeon@librehat.com>"
+  },
+  {
+    "name": "keepassxc",
+    "version": "2.6.6",
+    "description": "Cross-platform community-driven port of Keepass password manager",
+    "homepage": "https://keepassxc.org/",
+    "depends": ["argon2", "libcurl", "libgcrypt", "libqrencode", "libsodium", "libxtst", "qt5-qtbase", "qt5-qtsvg", "qt5-qtx11extras"],
+    "srcurl": "https://github.com/keepassxreboot/keepassxc/releases/download/2.6.6/keepassxc-2.6.6-src.tar.xz",
+    "maintainer": "@termux"
   },
   {
     "name": "kguiaddons",
