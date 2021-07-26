@@ -1758,11 +1758,11 @@
   },
   {
     "name": "entr",
-    "version": "4.7",
+    "version": "5.0",
     "description": "Event Notify Test Runner - run arbitrary commands when files change",
     "homepage": "http://eradman.com/entrproject/",
     "depends": [],
-    "srcurl": "http://ftp.debian.org/debian/pool/main/e/entr/entr_4.7.orig.tar.gz",
+    "srcurl": "http://eradman.com/entrproject/code/entr-5.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -3874,11 +3874,11 @@
   },
   {
     "name": "libgsasl",
-    "version": "1.8.1",
+    "version": "1.10.0",
     "description": "GNU SASL library",
     "homepage": "https://www.gnu.org/software/gsasl",
     "depends": ["libidn"],
-    "srcurl": "https://download.savannah.nongnu.org/releases/gsasl/libgsasl-1.8.1.tar.gz",
+    "srcurl": "https://ftp.gnu.org/gnu/gsasl/libgsasl-1.10.0.tar.gz",
     "maintainer": "@termux"
   },
   {
