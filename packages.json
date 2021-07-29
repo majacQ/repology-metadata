@@ -1274,6 +1274,15 @@
     "maintainer": "@termux"
   },
   {
+    "name": "cups",
+    "version": "2.3.3",
+    "description": "Common UNIX Printing System",
+    "homepage": "https://www.cups.org/",
+    "depends": ["libiconv", "libcrypt"],
+    "srcurl": "https://github.com/apple/cups/releases/download/v2.3.3/cups-2.3.3-source.tar.gz",
+    "maintainer": "@termux"
+  },
+  {
     "name": "cvs",
     "version": "1:1.12.13",
     "description": "Concurrent Versions System",
@@ -6635,11 +6644,11 @@
   },
   {
     "name": "qalc",
-    "version": "3.20.0",
+    "version": "3.20.1",
     "description": "Powerful and easy to use command line calculator",
     "homepage": "https://qalculate.github.io/",
     "depends": ["libc++", "libiconv", "libcurl", "libmpfr", "libxml2", "readline", "libgmp", "zlib"],
-    "srcurl": "https://github.com/Qalculate/libqalculate/releases/download/v3.20.0/libqalculate-3.20.0.tar.gz",
+    "srcurl": "https://github.com/Qalculate/libqalculate/releases/download/v3.20.1/libqalculate-3.20.1.tar.gz",
     "maintainer": "@termux"
   },
   {
