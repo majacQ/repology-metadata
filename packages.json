@@ -2162,11 +2162,11 @@
   },
   {
     "name": "gdbm",
-    "version": "1.19",
+    "version": "1.20",
     "description": "Library of database functions that use extensible hashing",
     "homepage": "https://www.gnu.org.ua/software/gdbm/",
     "depends": ["readline"],
-    "srcurl": "https://mirrors.kernel.org/gnu/gdbm/gdbm-1.19.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gdbm/gdbm-1.20.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2185,6 +2185,15 @@
     "homepage": "https://gegl.org/",
     "depends": ["libandroid-support", "libc++", "ffmpeg", "babl", "json-glib", "libjpeg-turbo", "libpng", "libjasper", "littlecms", "libtiff", "librsvg", "zlib"],
     "srcurl": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.30.tar.xz",
+    "maintainer": "@termux"
+  },
+  {
+    "name": "gengetopt",
+    "version": "2.23",
+    "description": "gengetopt is a tool to write command line option parsing code for C programs.",
+    "homepage": "https://www.gnu.org/software/gengetopt/",
+    "depends": [],
+    "srcurl": "https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.23.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -6626,11 +6635,11 @@
   },
   {
     "name": "qalc",
-    "version": "3.19.0",
+    "version": "3.20.0",
     "description": "Powerful and easy to use command line calculator",
     "homepage": "https://qalculate.github.io/",
     "depends": ["libc++", "libiconv", "libcurl", "libmpfr", "libxml2", "readline", "libgmp", "zlib"],
-    "srcurl": "https://github.com/Qalculate/libqalculate/releases/download/v3.19.0/libqalculate-3.19.0.tar.gz",
+    "srcurl": "https://github.com/Qalculate/libqalculate/releases/download/v3.20.0/libqalculate-3.20.0.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -9580,6 +9589,15 @@
     "depends": ["hicolor-icon-theme"],
     "srcurl": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/archive/40.1/adwaita-icon-theme-40.1.tar.gz",
     "maintainer": "Leonid Pliushch <leonid.pliushch@gmail.com>"
+  },
+  {
+    "name": "arqiver",
+    "version": "0.8.0",
+    "description": "A simple Qt archiver manager based on libarchive",
+    "homepage": "https://github.com/tsujan/Arqiver",
+    "depends": ["hicolor-icon-theme", "qt5-qtbase", "qt5-qtsvg", "qt5-qtx11extras", "libarchive", "bsdtar", "zip"],
+    "srcurl": "https://github.com/tsujan/Arqiver/releases/download/V0.8.0/Arqiver-0.8.0.tar.xz",
+    "maintainer": "Yisus7u7"
   },
   {
     "name": "at-spi2-atk",
