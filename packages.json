@@ -619,11 +619,11 @@
   },
   {
     "name": "automake",
-    "version": "1.16.3",
+    "version": "1.16.4",
     "description": "Tool for automatically generating Makefile.in files",
     "homepage": "https://www.gnu.org/software/automake/",
     "depends": ["autoconf"],
-    "srcurl": "https://mirrors.kernel.org/gnu/automake/automake-1.16.3.tar.xz",
+    "srcurl": "https://mirrors.kernel.org/gnu/automake/automake-1.16.4.tar.xz",
     "maintainer": "@termux"
   },
   {
@@ -1077,11 +1077,11 @@
   },
   {
     "name": "cmake",
-    "version": "3.21.0",
+    "version": "3.21.1",
     "description": "Family of tools designed to build, test and package software",
     "homepage": "https://cmake.org/",
     "depends": ["libarchive", "libc++", "libcurl", "libexpat", "jsoncpp", "libuv", "rhash", "make", "clang", "zlib"],
-    "srcurl": "https://www.cmake.org/files/v3.21/cmake-3.21.0.tar.gz",
+    "srcurl": "https://www.cmake.org/files/v3.21/cmake-3.21.1.tar.gz",
     "maintainer": "@termux"
   },
   {
@@ -2585,11 +2585,11 @@
   },
   {
     "name": "gsl",
-    "version": "2.6",
+    "version": "2.7",
     "description": "GNU Scientific Library (GSL) providing a wide range of mathematical routines",
     "homepage": "https://www.gnu.org/software/gsl/",
     "depends": [],
-    "srcurl": "https://mirrors.kernel.org/gnu/gsl/gsl-2.6.tar.gz",
+    "srcurl": "https://mirrors.kernel.org/gnu/gsl/gsl-2.7.tar.gz",
     "maintainer": "@termux"
   },
   {
